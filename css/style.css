@@ -330,10 +330,34 @@ body {
     top: 50%;
     left: 50%;
     width: 75%;
-    height: 50rem;
     background-color: #fff;
     box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
-    transform: translate(-50%, -50%); }
+    border-radius: 0.3rem;
+    transform: translate(-50%, -50%);
+    display: table;
+    overflow: hidden; }
+  .popup__left {
+    width: 33.333333%;
+    display: table-cell; }
+  .popup__right {
+    width: 66.66667%;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 3rem 5rem; }
+  .popup__img {
+    display: block;
+    width: 100%; }
+  .popup__heading {
+    font-size: 3rem;
+    color: #11ee88;
+    margin-bottom: 10rem;
+    letter-spacing: 1rem; }
+  .popup__paragraph {
+    font-size: 1.3rem;
+    margin-bottom: 10rem; }
+  .popup__link {
+    text-decoration: none;
+    color: #55aa22; }
 
 .container {
   max-width: 120rem;
