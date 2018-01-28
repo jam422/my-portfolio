@@ -1,0 +1,47 @@
+.container{
+    max-width: 120rem;
+    margin: 8rem auto;
+    background-color: #fff;
+    box-shadow: var(--shadow-dark);
+    min-height: 50rem;
+    border-radius: 5px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7em;
+    font-size: 1.4rem;
+    background-color: #fff;
+    border-bottom: 1px solid $color-light-grey;
+}
+
+.hero{
+    display: flex;
+    height: 95vh;
+    width: 100%;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;        
+    // flex: 0 0 18%;
+}
+
+.about{
+    display: flex;
+}
+
+.projects{
+    display: flex;
+}
+
+.contact{
+    display: flex;
+}
+
+.footer{
+    display: flex;
+}

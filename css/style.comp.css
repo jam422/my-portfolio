@@ -1,0 +1,7 @@
+body {
+  background-color: darkgreen; }
+
+.container {
+  max-width: 120rem;
+  margin: 8rem auto;
+  background-color: aqua; }

@@ -1,0 +1,49 @@
+/**************************************
+**    SASS COLOR VARS                **
+**************************************/
+// Carbcalc Color Palette
+$color-aqua: #11ee88; //RBG VAL = 	(17,238,136)
+$color-tan: #eeaa66; //RGB VAL = 	(238,170,102)
+$color-green: #55aa22; //RGB VAL = 	(85,170,34)
+$color-blue: #6688cc; //RGB VAL = (102, 136, 204)
+$color-grey: #bbb; //RGB VAL = (187,187,187)
+$color-light-grey: #f4f2f2;
+$color-black: #000;
+
+/**************************************
+**    CSS COLOR VARS                 **
+**************************************/
+:root{
+    --shadow-dark: 0 2rem 6rem rgba(0,0,0,8.3);
+}
+
+/**************************************
+**      RESET DEFAULT BROWSER CSS     **
+**************************************/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;   // 1rem = 10px **10px/16px(browser default) = 62.5%
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    padding: 3rem;
+    font-weight: 400;
+    line-height: 1.7;
+    background-image: linear-gradient(to right bottom, $color-aqua, $color-green);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #000;
+    min-height: 100vh;
+}
