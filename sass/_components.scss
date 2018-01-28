@@ -259,7 +259,8 @@
 
     &__card-title{
         text-align: center;
-        color: $color-green;
+        color: #fff;
+        margin-bottom: 2rem;
     }
 
     &__card-image{
@@ -417,6 +418,33 @@
     left: 0;
     background-color: rgba($color-black, .8);
     z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+
+    &:target{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    &__close{
+        &:link,
+        &:visited{
+            color: #777;
+            position: absolute;
+            top: 2.5rem;
+            right: 2.5rem;
+            font-size: 3rem;
+            text-decoration: none;
+            display: inline-block;
+            line-height: 1;
+            transition: all 0.2s;
+        }
+
+        &:hover{
+            color: $color-aqua;
+        }
+    }
 
     &__content{
         position: absolute;

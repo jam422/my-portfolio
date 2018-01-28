@@ -218,7 +218,8 @@ body {
       box-shadow: 0 1rem 2rem black; }
   .projects__card-title {
     text-align: center;
-    color: #55aa22; }
+    color: #fff;
+    margin-bottom: 2rem; }
   .projects__card-image {
     text-align: center;
     width: 100%;
@@ -324,7 +325,25 @@ body {
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.8);
-  z-index: 9999; }
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s; }
+  .popup:target {
+    opacity: 1;
+    visibility: visible; }
+  .popup__close:link, .popup__close:visited {
+    color: #777;
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;
+    font-size: 3rem;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1;
+    transition: all 0.2s; }
+  .popup__close:hover {
+    color: #11ee88; }
   .popup__content {
     position: absolute;
     top: 50%;

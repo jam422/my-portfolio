@@ -67,6 +67,16 @@
                 <h2 class="projects__text-sub">Here some projects I've worked on.</h2>
             </div>
             <div class="projects__container">
+                <div class="projects__card" id="#popup">
+                    <div class="projects__card-title">Ajax Health Nutrition</div>
+                    <div class="projects__card-image">
+                        <img class="projects__card-image" src="img/ajax_screenshot.jpg" alt="Ajax Website Screenshot">
+                    </div>
+                    <div class="projects__card-body">
+                        <a href="#popup">click</a>
+                    </div>
+                </div>
+
                 <div class="projects__card">
                     <div class="projects__card-title">Ajax Health Nutrition</div>
                     <div class="projects__card-image">
@@ -74,20 +84,14 @@
                     </div>
                     <div class="projects__card-body">adkfjasdasdfasdfasf</div>
                 </div>
+
                 <div class="projects__card">
-                        <div class="projects__card-title">Ajax Health Nutrition</div>
-                        <div class="projects__card-image">
-                            <img class="projects__card-image" src="img/ajax_screenshot.jpg" alt="Ajax Website Screenshot">
-                        </div>
-                        <div class="projects__card-body">adkfjasdasdfasdfasf</div>
+                    <div class="projects__card-title">Ajax Health Nutrition</div>
+                    <div class="projects__card-image">
+                        <img class="projects__card-image" src="img/ajax_screenshot.jpg" alt="Ajax Website Screenshot">
                     </div>
-                    <div class="projects__card">
-                            <div class="projects__card-title">Ajax Health Nutrition</div>
-                            <div class="projects__card-image">
-                                <img class="projects__card-image" src="img/ajax_screenshot.jpg" alt="Ajax Website Screenshot">
-                            </div>
-                            <div class="projects__card-body">adkfjasdasdfasdfasf</div>
-                        </div>
+                    <div class="projects__card-body">adkfjasdasdfasdfasf</div>
+                </div>
             </div>
         </section>
                      
@@ -143,13 +147,14 @@
 
         <!-- My popups can be anywhere in the code since they aren't tied to any
         specific structures. -->
-        <div class="popup">
+        <div class="popup" id="popup">
             <div class="popup__content">
                 <div class="popup__left">
                     <img src="img/ajax_screenshot2.png" alt="Ajax Screenshot Number 2" class="popup__img">
                     <img src="img/ajax_screenshot3.png" alt="Ajax Screenshot Number 3" class="popup__img">
                 </div>
                 <div class="popup__right">
+                    <a href="#projects" class="popup__close">&times;</a>
                     <h2 class="popup__heading">AJAX website</h2>
                     <p class="popup__paragraph">This was my first website
                         I have ever created for a client. 
