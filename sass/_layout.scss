@@ -5,6 +5,12 @@
     box-shadow: var(--shadow-dark);
     min-height: 50rem;
     border-radius: 5px;
+
+    @media(max-width: $bp-largest){
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 100%;
+    }
 }
 
 .header{
@@ -14,7 +20,11 @@
     height: 7em;
     font-size: 1.4rem;
     background-color: #fff;
-    border-bottom: 1px solid $color-light-grey;
+    
+
+    @media(max-width: 385px){
+        margin-bottom: 3.5rem;
+    }    
 }
 
 .hero{
@@ -26,8 +36,16 @@
 .navigation{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;        
-    // flex: 0 0 18%;
+    justify-content: space-between;   
+    
+    @media(max-width: 385px){
+        flex-direction: column;
+        display: inline-block;
+        margin-top: 2rem;
+        margin-bottom: 2.5rem;            
+        align-self: center;
+        text-align: center;         
+    }
 }
 
 .about{

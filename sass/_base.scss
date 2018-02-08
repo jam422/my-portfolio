@@ -10,6 +10,10 @@ $color-grey: #bbb; //RGB VAL = (187,187,187)
 $color-light-grey: #f4f2f2;
 $color-black: #000;
 
+// Breakpoint SASS Variables
+$bp-largest: 75rem; // 1200px/16
+$bp-large: 68.75rem; // 1100px/16
+
 /**************************************
 **    CSS COLOR VARS                 **
 **************************************/
@@ -34,6 +38,10 @@ $color-black: #000;
 html{
     box-sizing: border-box;
     font-size: 62.5%;   // 1rem = 10px **10px/16px(browser default) = 62.5%
+
+    @media (max-width: $bp-large){
+        font-size: 50%;
+    }
 }
 
 body{

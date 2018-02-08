@@ -4,6 +4,10 @@
 .header{
     margin-top: 3.5rem;
     
+    @media(max-width: 460px){
+        flex-direction: column;
+        justify-content: center;
+    }
 
     &__heading{
         display: flex;
@@ -12,6 +16,11 @@
         margin-left: 3rem;
         color: $color-grey;
         transition: all .3s;
+
+        @media(max-width: 460px){
+            margin-top: 2rem;
+            margin-right: 3rem;
+        }
 
         &:hover{
             color: $color-aqua;
@@ -69,9 +78,12 @@
                 animation-name: moveInLeft;
                 animation-duration: 1s;
                 animation-timing-function: ease-out;
-            
-                /* animation-delay: 3s;.
-                    animation-iteration-count: 3; */
+
+                @media(max-width: 600px){
+                    font-size: 1.5rem;
+                    letter-spacing: 1.5rem;
+                    margin-left: 3rem;
+                }
             }
             
             &--sub{
@@ -80,6 +92,12 @@
                 font-weight: 700;
                 letter-spacing: 1.75rem;
                 animation: moveInRight 1s ease-out;
+
+                @media(max-width: 600px){
+                    font-size: 1.5rem;
+                    letter-spacing: 1.5rem;
+                    margin-left: 3rem;
+                }
             }
         }
 }
@@ -93,8 +111,8 @@
     justify-content: center;
     align-self: stretch;
     font-size: 1.4rem;
-    list-style: none;    
-    
+    list-style: none;        
+
     & >*{
         display: flex;
         align-items: center;
@@ -103,8 +121,13 @@
         height: 100%;
     }    
 
-    &__item{
-        transition: all .6s;
+    &__item{            
+        transition: all .6s;   
+        
+        @media(max-width: 385px){
+            justify-content: center;
+            display: block;
+        }
     }
 
     &__item:hover{
@@ -172,10 +195,9 @@
     }
     
     &__info-box{
-        display: flex;
-        justify-content: space-between;        
-        
+        display: flex;                     
     }
+    
     &__photo{
         flex: 1;
         flex-wrap: wrap;
@@ -228,10 +250,15 @@
 
     &__text-sub{                
         justify-content: center;
+
+        @media(max-width: 450px){
+            font-size: 1.5rem;   
+        }
     }
 
     &__container{
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
         flex-basis: 0 0 50%;
         justify-content: space-between;
@@ -241,6 +268,7 @@
     }
 
     &__card{
+        
         flex: 1;        
         padding: 5rem;
         margin: 5rem;
@@ -283,6 +311,14 @@
     margin-top: 5rem;
     padding: 5rem;
     border-bottom: .2rem solid $color-grey;
+
+    @media(max-width: 1100px){
+        flex-direction: column;
+    }
+
+    @media(max-width: 630px){
+        flex-direction: column;
+    }
 
     &__icon{
         fill: $color-green;
@@ -333,21 +369,36 @@
     }
 
     &__containment{
-        display: flex;
+        display: flex;        
+        flex-direction: row;
+        align-items: center;
+        margin: 0 auto;    
+        
+        @media(max-width: 630px){
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            display: block;
+        }
     }
 
     &__social{
         // margin-top: 1.5rem;
         padding: 1rem;
         display: flex;        
-        flex-direction: column;
-        width: 50%;
+        flex-direction: column;        
+        width: 50%;        
         align-items: center;
+        margin-right: 10rem;
+
+        @media(max-width: 630px){            
+            margin-left: 2.5rem;                     
+        }
     }
 
     &__social-icon{
         fill: $color-green;
-        flex-basis: 10%;                                
+        flex-basis: 10%;                                        
 
         &--fb{
             fill: #4267B2;
@@ -378,8 +429,16 @@
         flex-direction: column;
         width: 50%;
         align-items: center;
-        padding: 1rem;
-        
+        padding: 1rem;    
+        margin-left: 10rem;  
+
+        @media(max-width: 630px){
+            margin-left: 2.5rem;
+        }
+    }
+
+    &__info-header{
+        color: $color-green;
     }
 
     &__contact--info{
@@ -397,13 +456,22 @@
     flex-direction: row;
     text-align: center;
     font-size: 1.5rem;  
+    padding: 1.5rem;
+    color: $color-grey;    
+
+    @media only screen and (max-width: 1110px){
+        flex-direction: column;
+    }
 
     &__header{
         flex: 1;
+        color: $color-green;
     }
 
     &__paragraph{
         flex: 1;
+        color: $color-grey;
+        margin-right: 2rem;
     }
 }
 
@@ -422,9 +490,15 @@
     visibility: hidden;
     transition: all 0.3s;
 
+    // Open State
     &:target{
         opacity: 1;
         visibility: visible;
+    }
+
+    &:target &__content{
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
     }
 
     &__close{
@@ -453,10 +527,12 @@
         width: 75%;        
         background-color: #fff;
         box-shadow: 0 2rem 4rem rgba($color-black, .2);
-        border-radius: 0.3rem;
-        transform: translate(-50%, -50%);
+        border-radius: 0.3rem;        
         display: table;
         overflow: hidden;
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(.5);
+        transition: all 0.4s 0.2s;
     }
 
     &__left{
