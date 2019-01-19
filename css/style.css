@@ -229,7 +229,7 @@ body {
     fill: #55aa22; }
   .projects__text-primary {
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     margin-top: 5rem;
     color: #55aa22; }
     .projects__text-primary:hover {
@@ -240,7 +240,8 @@ body {
     text-transform: uppercase; }
   .projects__text {
     justify-content: center;
-    margin-bottom: 1rem; }
+    margin-bottom: 2rem;
+    color: #777; }
   .projects__text-sub {
     justify-content: center; }
     @media (max-width: 450px) {
