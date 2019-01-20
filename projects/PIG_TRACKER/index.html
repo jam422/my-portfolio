@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="css/main.css" />
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pig Tracking</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="main-header">
+    <nav class="transparent z-depth-0">
+      <div class="nav-wrapper">
+        <a href="#" data-activates="mobile-nav" class="button-collapse show-on-large">
+          <i class="material-icons white-text">menu</i>
+        </a>
+        <a href="index.html" class="brand-logo">PigTracker</a>
+        <ul class="right hide-on-med-and-down">
+          <li class="active">
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="tracking.html">Tracking</a>
+          </li>
+        </ul>
+      </div>
+      <ul class="side-nav" id="mobile-nav">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="tracking.html">Tracking</a>
+        </li>
+      </ul>
+    </nav>
+    <h1 class="center">Track that PIG</h1>
+    <p class="center">A way to keep track of that pig.</p>
+  </header>
+
+  <!-- section main -->
+  <main class="main">
+    <div class="container">
+      <div class="row row-1">
+        <div class="col l12 center">
+          <div class="intro">
+            <h3 class="green-text">Introduction</h3>
+            <p class="white-text">This is a web app used to keep track of
+              pig destinations and estimated times of arrival.
+            </p>
+            <p class="white-text">
+              Click the button below to be redirected to the
+              tracking page. Once there you will be able fill
+              out all of the necesary fields to get your results.
+            </p>
+            <a href="tracking.html" class="btn waves-effect waves-light gray">Tracking</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="page-footer">
+    <p class="white-text center">@2019 PigTracker by Justin A. Maynard</p>
+  </footer>
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Custom JS & jQuery here
+      $('.button-collapse').sideNav();
+    });
+  </script>
+</body>
+
+</html>

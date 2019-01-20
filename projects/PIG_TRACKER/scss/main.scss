@@ -1,0 +1,147 @@
+@import './materialize';
+
+// vars
+$header-bg: url(../img/gas.jpeg);
+$header-height: 400px;
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background: rgb(176, 236, 178);
+  }
+.btn {
+    background: #4caf50;
+}
+
+  main {
+    flex: 1 0 auto;
+  }
+
+.main-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), $header-bg;
+    background-size: cover;
+    text-transform: uppercase;
+    color: #fff;
+    height: $header-height;
+    margin-bottom: 30px;
+
+    h1 {
+        margin: 0;
+        padding-top: 50px;
+    }
+
+    i.icon-nav {
+        font-size: 40px;
+        color: #4b4741;
+    }
+
+    @media screen and (max-width: 678px) {
+        background-size: cover;
+    }
+}
+
+.intro {
+    padding: 1rem;
+    background: rgb(61, 56, 56);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+
+    .btn:hover {
+        background-color: #2f5531;
+    }
+    .btn:focus {
+        background-color: #4CAF50;
+    }
+
+}
+
+.form__data {
+    margin: 40px;
+    background: rgb(61, 56, 56);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    padding: 10rem;
+
+    label {
+        color: #4CAF50;
+    }
+
+    input {
+        color: #4CAF50;
+    }
+
+    .input-field input[type=number] {
+        border-bottom: 1px solid #fff !important;
+    }
+
+    .input-field input:focus + label {
+        color: rgb(146, 245, 149) !important;
+      }
+      .row .input-field input:focus {
+        border-bottom: 1px solid #2f5531 !important;
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+      }
+
+    .helper-text {
+        color: #4CAF50;
+    }
+
+    .btn:hover {
+        background-color: #2f5531;
+    }
+    .btn:focus {
+        background-color: #4CAF50;
+    }
+
+    .btn {
+        background: #4caf50;
+    }
+    
+}
+
+.form-output {
+    margin-top: 40px;
+    background: rgb(61, 56, 56);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+
+    label {
+        color: #4CAF50;
+    }
+
+    input {
+        color: #4CAF50;
+    }
+
+    .input-field input[type=text] {
+        border-bottom: 1px solid #fff !important;
+    }
+
+    .input-field input:focus + label {
+        color: rgb(146, 245, 149) !important;
+      }
+      .row .input-field input:focus {
+        border-bottom: 1px solid #2f5531 !important;
+        box-shadow: 0 1px 0 rgba(0, 0, 0, 0.5);
+      }
+
+    .helper-text {
+        color: #4CAF50;
+    }
+}
+
+.data-output {
+    display: none;
+
+}
+
+.nav-wrapper {
+    background-color: rgba(76, 175, 80, 0.8);
+}
+
+.side-nav {
+    background: #4CAF50;
+    border: 1px solid #4b4741;
+}
+
+.page-footer {
+    background-color: #4CAF50;
+}

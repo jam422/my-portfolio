@@ -199,7 +199,8 @@ body {
     color: #55aa22;
     font-size: 1.7rem;
     flex-direction: row;
-    margin-bottom: 5rem; }
+    margin-bottom: 5rem;
+    text-indent: .5rem; }
     .about__paragraph--two {
       font-size: 1.2rem;
       color: #55aa22;
