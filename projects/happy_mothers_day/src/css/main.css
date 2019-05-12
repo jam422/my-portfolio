@@ -1,0 +1,175 @@
+html {
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #aa39eb, #5996be);
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  overflow-x: hidden; }
+
+.sinir {
+  display: flex;
+  height: 50vh;
+  align-content: center;
+  margin: 40vh auto; }
+
+.box {
+  width: auto;
+  height: 100px;
+  background-color: #6a2e79;
+  margin: 0 auto;
+  font-size: 50px;
+  padding: 15px;
+  color: #fff; }
+
+/* Step 1: Build the Animation */
+@-webkit-keyframes aniload {
+  from {
+    -webkit-transform: translate(0px, 1000px); }
+  to {
+    -webkit-transform: translate(0px, 0px); } }
+
+@-moz-keyframes aniload {
+  from {
+    -moz-transform: translate(0px, 1000px); }
+  to {
+    -moz-transform: translate(0px, 0px); } }
+
+@-ms-keyframes aniload {
+  from {
+    -ms-transform: translate(0px, 1000px); }
+  to {
+    -ms-transform: translate(0px, 0px); } }
+
+@-o-keyframes aniload {
+  from {
+    -o-transform: translate(0px, 1000px); }
+  to {
+    -o-transform: translate(0px, 0px); } }
+
+@keyframes aniload {
+  from {
+    transform: translate(0px, 1000px); }
+  to {
+    transform: translate(0px, 0px); } }
+
+/* Step 2: Call the Animation */
+#box1 {
+  border-radius: 0.5rem;
+  -webkit-animation: aniload 4s;
+  -moz-animation: aniload 4s;
+  -ms-animation: aniload 4s;
+  -o-animation: aniload 4s;
+  animation: aniload 4s;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4); }
+
+#box2 {
+  border-radius: 0.5rem;
+  -webkit-animation: aniload 1s;
+  -moz-animation: aniload 1s;
+  -ms-animation: aniload 1s;
+  -o-animation: aniload 1s;
+  animation: aniload 1s;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4); }
+
+#box3 {
+  border-radius: 0.5rem;
+  -webkit-animation: aniload 4s;
+  -moz-animation: aniload 4s;
+  -ms-animation: aniload 4s;
+  -o-animation: aniload 4s;
+  animation: aniload 4s;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4); }
+
+#box4 {
+  border-radius: 0.5rem;
+  -webkit-animation: aniload 3s;
+  -moz-animation: aniload 3s;
+  -ms-animation: aniload 3s;
+  -o-animation: aniload 3s;
+  animation: aniload 3s;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4); }
+
+#box5 {
+  border-radius: 0.5rem;
+  -webkit-animation: aniload 2s;
+  -moz-animation: aniload 2s;
+  -ms-animation: aniload 2s;
+  -o-animation: aniload 2s;
+  animation: aniload 2s;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4); }
+
+#box6 {
+  border-radius: 0.5rem;
+  -webkit-animation: aniload 2s;
+  -moz-animation: aniload 2s;
+  -ms-animation: aniload 2s;
+  -o-animation: aniload 2s;
+  animation: aniload 2s;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4); }
+
+#banner {
+  text-align: center;
+  margin-top: -60vh;
+  width: 50vh;
+  height: auto;
+  border-radius: 0.5rem;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  -webkit-animation: aniload 2s;
+  -moz-animation: aniload 2s;
+  -ms-animation: aniload 2s;
+  -o-animation: aniload 2s;
+  animation: aniload 6s; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+.head-wrap {
+  display: flex; }
+
+.header {
+  background: grey;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+  color: #fff; }
+
+.site-wrap {
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  color: #fff;
+  max-width: 700px;
+  margin: 40vh auto;
+  background: #7166ac;
+  padding: 40px;
+  text-align: justify; }
+
+img {
+  margin: 3rem 0; }
+
+.thank-you {
+  color: #fff;
+  text-align: center;
+  margin: -10rem 0;
+  border: 5px solid blueviolet; }
+
+.k_j {
+  align-self: center;
+  width: 40%;
+  height: auto; }
+
+.slide-in {
+  opacity: 0;
+  transition: all .5s; }
+
+.align-left.slide-in {
+  transform: translateX(-30%) scale(0.95); }
+
+.align-right.slide-in {
+  transform: translateX(30%) scale(0.95); }
+
+.slide-in.active {
+  opacity: 1;
+  transform: translateX(0%) scale(1); }

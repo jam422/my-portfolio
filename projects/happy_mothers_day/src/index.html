@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <div class="sinir">
+        <div class="box" id="box1">K</div>
+        <div class="box" id="box2">A</div>
+        <div class="box" id="box3">Y</div>
+        <div class="box" id="box4">L</div>
+        <div class="box" id="box5">Y</div>
+        <div class="box" id="box6">N</div>
+    </div>
+    <div class="box" id="banner">Happy Mother's Day!</div>
+
+    <div class="site-wrap">
+
+        <img src="img/k4.jpg" class="align-left slide-in">
+        <p>
+            Kaylyn, Happy Mother's Day! I love you so much and
+            I know Jansen LOVES his mommy!
+        </p>
+
+        <p>Thank you so very much for everything that you do for
+            Jansen and I.
+        </p>
+
+        <img src="img/k3.gif" class="k_j slide-in">
+
+        <img src="img/k1.jpg" class="slide-in">
+        <img src="img/k2.jpg" class="slide-in">
+    </div>
+    <div class="thank-you">
+        <h1 class="thank">Thank you so much for being the best of the best</h1>
+    </div>
+    <script src="js/app.js"></script>
+    <!-- <script>
+        function debounce(func, wait = 20, immediate = true) {
+            var timeout;
+            return function () {
+                var context = this, args = arguments;
+                var later = function () {
+                    timeout = null;
+                    if (!immediate) func.apply(context, args);
+                };
+                var callNow = immediate && !timeout;
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+                if (callNow) func.apply(context, args);
+            };
+        };
+        const sliderImages = document.querySelectorAll('.slide-in');
+        function checkSlide() {
+            sliderImages.forEach(sliderImage => {
+                // half way through the image
+                const slideInAt = (window.scrollY + window.innerHeight) - sliderImage.height / 2;
+                // bottom of the image
+                const imageBottom = sliderImage.offsetTop + sliderImage.height;
+                const isHalfShown = slideInAt > sliderImage.offsetTop;
+                const isNotScrolledPast = window.scrollY < imageBottom;
+                if (isHalfShown && isNotScrolledPast) {
+                    sliderImage.classList.add('active');
+                } else {
+                    sliderImage.classList.remove('active');
+                }
+            });
+        }
+        window.addEventListener('scroll', debounce(checkSlide));
+    </script> -->
+
+</body>
+
+</html>
