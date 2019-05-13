@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <div class="sinir">
+        <div class="box" id="box1">M</div>
+        <div class="box" id="box2">O</div>
+        <div class="box" id="box3">M</div>
+        <!-- <div class="box" id="box4">M</div>
+        <div class="box" id="box5">A</div> -->
+        <!-- <div class="box" id="box6"></div> -->
+    </div>
+    <div class="box" id="banner">Happy Mother's Day!</div>
+
+    <div class="site-wrap">
+        <h2 style="text-transform: uppercase; letter-spacing: 2px; margin-bottom: 0.3rem;">I couldn't imagine life
+            without <i>you</i> Mom.</h2>
+        <h3>Thank you for always being there for me through my darkest and finest of times. Thank you for showing me
+            how to love and be kind.</h3>
+        <h3>I'm so thankful that God chose you to be my mom. To thank you I wanted to put together this small digital
+            Mother's Day card for you.</h3>
+        <h3>Below are some pictures I think you'll enjoy as much as I do. Happy Mother's
+            Day Momma! &#10085;</h3>
+        <img src="img/m4.JPG" id="ort" class="slide-in">
+        <img src="img/m7.JPG" id="ort" class="slide-in">
+        <img src="img/m2.JPG" id="ort" class="slide-in">
+        <img src="img/m1.JPG" class="slide-in">
+        <img src="img/m3.JPG" id="ort" class="slide-in">
+        <img src="img/m5.JPG" id="ort" class="slide-in">
+        <img src="img/m6.JPG" id="ort" class="slide-in">
+        <img src="img/dogs.jpg" id="ort" class="slide-in">
+        <img src="img/g1.JPG" id="ort" class="slide-in">
+        <img src="img/k1.JPG" id="ort" class="slide-in">
+        <img src="img/b1.jpg" id="ort" class="slide-in">
+        <img src="img/b2.jpg" id="ort" class="slide-in">
+        <img src="img/b3.jpg" id="ort" class="slide-in">
+    </div>
+    <div class="thank-you">
+        <h1 class="thank">Thank you so much for being the greatest mom in the universe!</h1>
+        <p>Love, <i>Justin Allen Maynard</i></p>
+    </div>
+    <script src="js/app.js"></script>
+    <!-- <script>
+        function debounce(func, wait = 20, immediate = true) {
+            var timeout;
+            return function () {
+                var context = this, args = arguments;
+                var later = function () {
+                    timeout = null;
+                    if (!immediate) func.apply(context, args);
+                };
+                var callNow = immediate && !timeout;
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+                if (callNow) func.apply(context, args);
+            };
+        };
+        const sliderImages = document.querySelectorAll('.slide-in');
+        function checkSlide() {
+            sliderImages.forEach(sliderImage => {
+                // half way through the image
+                const slideInAt = (window.scrollY + window.innerHeight) - sliderImage.height / 2;
+                // bottom of the image
+                const imageBottom = sliderImage.offsetTop + sliderImage.height;
+                const isHalfShown = slideInAt > sliderImage.offsetTop;
+                const isNotScrolledPast = window.scrollY < imageBottom;
+                if (isHalfShown && isNotScrolledPast) {
+                    sliderImage.classList.add('active');
+                } else {
+                    sliderImage.classList.remove('active');
+                }
+            });
+        }
+        window.addEventListener('scroll', debounce(checkSlide));
+    </script> -->
+
+</body>
+
+</html>
