@@ -111,9 +111,7 @@ html {
 
 #ort {
   -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
+  -ms-transform: rotate(30deg);
   transform: rotate(90deg); }
 
 #banner {
@@ -162,7 +160,8 @@ html {
 
 img {
   margin: 4rem 0;
-  display: block;
+  display: flex;
+  flex-direction: column;
   height: auto;
   max-width: 100%; }
 
