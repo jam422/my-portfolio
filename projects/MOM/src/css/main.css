@@ -111,7 +111,7 @@ html {
 
 #ort {
   -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(30deg);
+  -ms-transform: rotate(90deg);
   transform: rotate(90deg); }
 
 #banner {
