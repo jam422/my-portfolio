@@ -1,0 +1,198 @@
+html {
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #18643e, #1d650e);
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  font-weight: 700;
+  overflow-x: hidden; }
+
+.sinir {
+  display: flex;
+  height: 50vh;
+  align-content: center;
+  margin-top: 5rem;
+  margin-bottom: 15rem; }
+
+.box {
+  text-align: center;
+  width: 7rem;
+  height: 7rem;
+  background-color: #83463a;
+  margin: 0 auto;
+  font-size: 5rem;
+  padding: 15px;
+  color: #fff; }
+
+/* Step 1: Build the Animation */
+@-webkit-keyframes aniload {
+  from {
+    -webkit-transform: translate(0px, 1000px); }
+  to {
+    -webkit-transform: translate(0px, 0px); } }
+
+@-moz-keyframes aniload {
+  from {
+    -moz-transform: translate(0px, 1000px); }
+  to {
+    -moz-transform: translate(0px, 0px); } }
+
+@-ms-keyframes aniload {
+  from {
+    -ms-transform: translate(0px, 1000px); }
+  to {
+    -ms-transform: translate(0px, 0px); } }
+
+@-o-keyframes aniload {
+  from {
+    -o-transform: translate(0px, 1000px); }
+  to {
+    -o-transform: translate(0px, 0px); } }
+
+@keyframes aniload {
+  from {
+    transform: translate(0px, 1000px); }
+  to {
+    transform: translate(0px, 0px); } }
+
+/* Step 2: Call the Animation */
+#box1 {
+  border-radius: 0.5rem;
+  -webkit-animation: aniload 4s;
+  -moz-animation: aniload 4s;
+  -ms-animation: aniload 4s;
+  -o-animation: aniload 4s;
+  animation: aniload 4s;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4); }
+
+#box2 {
+  border-radius: 0.5rem;
+  -webkit-animation: aniload 1s;
+  -moz-animation: aniload 1s;
+  -ms-animation: aniload 1s;
+  -o-animation: aniload 1s;
+  animation: aniload 1s;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4); }
+
+#box3 {
+  border-radius: 0.5rem;
+  -webkit-animation: aniload 4s;
+  -moz-animation: aniload 4s;
+  -ms-animation: aniload 4s;
+  -o-animation: aniload 4s;
+  animation: aniload 4s;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4); }
+
+#box4 {
+  border-radius: 0.5rem;
+  -webkit-animation: aniload 3s;
+  -moz-animation: aniload 3s;
+  -ms-animation: aniload 3s;
+  -o-animation: aniload 3s;
+  animation: aniload 3s;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4); }
+
+#box5 {
+  border-radius: 0.5rem;
+  -webkit-animation: aniload 2s;
+  -moz-animation: aniload 2s;
+  -ms-animation: aniload 2s;
+  -o-animation: aniload 2s;
+  animation: aniload 2s;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4); }
+
+#box6 {
+  border-radius: 0.5rem;
+  -webkit-animation: aniload 2s;
+  -moz-animation: aniload 2s;
+  -ms-animation: aniload 2s;
+  -o-animation: aniload 2s;
+  animation: aniload 2s;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4); }
+
+#ort {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
+#banner {
+  text-align: center;
+  margin-top: -60vh;
+  max-width: 1030px;
+  width: auto;
+  height: 50%;
+  border-radius: 0.5rem;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  -webkit-animation: aniload 2s;
+  -moz-animation: aniload 2s;
+  -ms-animation: aniload 2s;
+  -o-animation: aniload 2s;
+  animation: aniload 6s; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+.head-wrap {
+  display: flex; }
+
+.header {
+  background: grey;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+  color: #fff; }
+
+.site-wrap {
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  color: #fff;
+  max-width: 700px;
+  margin: 40vh auto;
+  background-color: #83463a;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 5px 5px 5px rgba(17, 16, 16, 0.8);
+  margin-top: 10vh;
+  margin-bottom: 0; }
+  .site-wrap h1, .site-wrap h2, .site-wrap h3, .site-wrap h4, .site-wrap h5 {
+    margin: 0.2rem 0; }
+
+img {
+  margin: 4rem 0;
+  display: block;
+  height: auto;
+  max-width: 100%; }
+
+.thank-you {
+  color: #fff;
+  text-align: center;
+  max-width: 700px;
+  text-shadow: 1px 1px 2px #000, 0 0 1em #651B0E, 0 0 0.2em goldenrod;
+  margin: 0 auto;
+  margin-top: 1rem;
+  border: 10px solid goldenrod;
+  border-style: groove;
+  background-color: #42231e; }
+
+.k_j {
+  align-self: center;
+  width: 40%;
+  height: auto; }
+
+.slide-in {
+  opacity: 0;
+  transition: all .5s; }
+
+.align-left.slide-in {
+  transform: translateX(-30%) scale(0.95); }
+
+.align-right.slide-in {
+  transform: translateX(30%) scale(0.95); }
+
+.slide-in.active {
+  opacity: 1;
+  transform: translateX(0%) scale(1); }
