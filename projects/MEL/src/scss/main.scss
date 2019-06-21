@@ -1,0 +1,291 @@
+// Variable Overrides 
+$theme-colors: (
+    "primary": #00a676,
+    "secondary": #b77a78,
+    "third": #f7f9f9,
+    "fourth": #2d3142
+);
+
+// @import '../../node_modules/font-awesome/scss/variables.scss';
+// $fa-font-path: '../../node_modules/font-awesome/fonts';
+// @import '../../node_modules/font-awesome/scss/font-awesome.scss';
+
+/* RGB */
+$color1: #2d3142;
+$color2: #b77a78;
+$color3: #00a676;
+$color4: #f7f9f9;
+$color5: #e0d0c1;
+
+
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+  background-color: #bd9e81;
+}
+
+.navbar .nav-link {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  a.navbar-brand.text-secondary:hover {
+    color: #00a676 !important;
+  }
+  .navbar .nav-link:hover {
+    color: #00a676 !important;
+  }
+
+.fa {
+    color: $color2;
+
+    &:hover {
+        color: $color3;
+    }
+}
+
+.jumbotron {
+    height: 75vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(83, 117, 107, 0.315),
+        rgba(21, 25, 41, 0.8)),
+    url(../img/ex1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%, cover;
+}
+
+.services {
+    background: #2d3142;
+    color: $color3;
+}
+
+.home-info {
+  background: #b77a78;
+  margin: 2rem 0;
+}
+
+    #icon_box {
+        width: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.849);
+        margin-right: 0.2rem;
+        margin: 0.3rem 0.3rem;
+        color: hsl(2, 24%, 49%);
+        background: #e0d0c1;
+        padding: 1rem;
+    }
+
+        .about-img {
+          margin-top: -50px;
+        }
+
+        #page-header {
+          height: 200px;
+          background-image: linear-gradient(
+            to right bottom,
+            rgba(83, 117, 107, 0.315),
+            rgba(21, 25, 41, 0.8)),
+        url(../img/ex1.jpg);
+          background-position: 0 -360px;
+          background-attachment: fixed;
+          color: #fff;
+          border-bottom: 1px #b77a78 solid;
+          padding-top: 50px;
+        }
+
+.mission {
+    display: flex;
+    align-content: center;
+    height: 50vh;
+    
+}
+
+.intro {
+  color: #2d3142;
+}
+
+.quote {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    justify-content: center;
+    justify-self: center;
+    color: $color2;
+    border-radius: 2rem;
+    background: #e0d0c1;
+    padding: 3rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.849);
+
+}
+
+blockquote footer {
+    text-align: right;
+    margin-right: 2rem;
+    background: #e0d0c1;
+}
+
+.quotation{
+    font-size: 30px;
+    //margin: 0 auto;
+    quotes: "\201C""\201D""\2018""\2019";
+    padding: 10px 20px;
+    line-height: 1.4;
+  }
+  
+  .quotation:before {
+    content: open-quote;
+    display: inline;
+    height: 0;
+    line-height: 0;
+    left: -10px;
+    position: relative;
+    top: 30px;
+    font-size: 3em;
+  }
+  .quotation::after {
+    content: close-quote;
+    display: inline;
+    height: 0;
+    line-height: 0;
+    left: 10px;
+    position: relative;
+    top: 35px;
+    font-size: 3em;
+  }
+
+  .test-container {
+      width: 50%;
+    border: 2px solid #ccc;
+    background-color: #2d3142;
+    color: #ffe6d0;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 2rem auto;
+  }
+
+  .test-container span {
+    color: #b77a78;
+    border-bottom: #00a676 solid 1px;
+  }
+  
+  .test__paragraph {
+    color: #ccc;
+  }
+
+  .test-container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .test-container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .test-container span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+.about__heading {
+  color: #bd9e81;
+}
+
+.about__p {
+  color: #2d3142;
+}
+
+.form__text {
+  color: #b77a78;
+}
+
+.animate-vac {
+animation: vac 1s infinite;
+}
+
+  @media (max-width: 500px) {
+    .test-container {
+        text-align: center;
+    }
+    .test-container img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+
+    .quotation {
+      font-size: 20px;
+    }
+
+    .quotation::before {
+      font-size: 20px;
+      top: -2px;
+      left: 4px;
+    }
+    .quotation::after {
+      font-size: 20px;
+      top: 2px;
+      left: -2px;
+    }
+    
+  }
+
+  @media (max-width: 600px) {
+    .quotation {
+      font-size: 20px;
+    }
+
+    .quotation::before {
+      font-size: 20px;
+      top: -2px;
+      left: 4px;
+    }
+    .quotation::after {
+      font-size: 20px;
+      top: 2px;
+      left: -2px;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .quotation {
+      font-size: 20px;
+    }
+
+    .quotation::before {
+      font-size: 20px;
+      top: -2px;
+      left: 4px;
+    }
+    .quotation::after {
+      font-size: 20px;
+      top: 2px;
+      left: -2px;
+    }
+  }
+
+  @keyframes vac {
+    0% {
+      box-shadow: 0 0 0 0px rgba(228, 138, 138, 0.5);
+    }
+  
+    100% {
+      box-shadow: 0 0 0 30px rgba(0, 0, 0, 0);
+    }
+  }
+
+footer {
+    background: #2d3142;
+    color: $color2;
+}
+
+// Bootstrap Sass Imports
+@import "node_modules/bootstrap/scss/bootstrap";

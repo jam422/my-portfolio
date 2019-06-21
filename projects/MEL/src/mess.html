@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>wrapAll demo</title>
+    <style>
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            border: 2px solid green;
+        }
+
+        p {
+            background: yellow;
+            margin: 4px;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-third text-secondary p-3">
+        <a class="navbar-brand text-secondary d-none d-flex" href="#">Mel Hasty Retirement Center</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item ml-5">
+                    <a class="nav-link text-secondary" href="#">Home</a>
+                </li>
+                <li class="nav-item ml-5">
+                    <a class="nav-link text-secondary" href="#">About Us</a>
+                </li>
+                <li class="nav-item ml-5">
+                    <a class="nav-link text-secondary" href="#">Lifestyle</a>
+                </li>
+                <li class="nav-item ml-5">
+                    <a class="nav-link text-secondary" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <script>
+        let wrapmeman = document.createElement("div");
+        wrapmeman.classList.add('wrapper');
+        $("nav").wrapAll(wrapmeman);
+        console.log($('nav').children().text());
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Bootstrap Theme</title>
+</head>
+
+<body class="bg-third">
+    <nav class="navbar navbar-expand-md navbar-dark bg-fourth bg- text-secondary">
+        <div class="container">
+            <a href="index.html" class="navbar-brand text-secondary">Mel Hasty Retirement Center</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon text-secondary bg-secondary"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="index.html" class="nav-link text-secondary">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="lifestyle.html" class="nav-link text-secondary">Lifestyle</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link text-secondary">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link text-secondary">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+      <!-- PAGE HEADER -->
+  <header id="page-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 m-auto text-center">
+          <h1>Contact Us</h1>
+          <p>Any questions? You may fill this form out and we will get back to you.</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="py-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card p-4">
+            <div class="card-body">
+              <h4 class="form__text">Get In Touch</h4>
+              <p>Any questions? You may fill this form out and we will get back to you.</p>
+              <h4 class="form__text">Address</h4>
+              <p>130 N Main St East Peoria, Illinois 61611</p>
+              <h4 class="form__text">Email</h4>
+              <p>test@test.com</p>
+              <h4 class="form__text">Phone</h4>
+              <p>	(309) 694-0404</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="card p-4">
+            <div class="card-body">
+              <h3 class="text-center form__text">Please fill out this form to contact us</h3>
+              <hr>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="First Name">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Last Name">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Email">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Phone Number">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <textarea class="form-control" placeholder="Message"></textarea>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <input type="submit" value="Submit" class="btn btn-outline-secondary btn-block">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STAFF -->
+
+  <div class="container text-center">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3026.329154747927!2d-89.58048408509704!3d40.66671594832253!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd5877c54c6741c5c!2sMel+Hasty+Retirement+Center!5e0!3m2!1sen!2sus!4v1560393274836!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+
+    <!-- FOOTER -->
+    <footer class="py-4">
+        <div class="container text-center">
+            <small class="ml-auto">Copyright &copy; <span id="year"></span> Mel Hasty Retirement Center</small>
+            <i class="fa fa-facebook fa-1x ml-5"></i>
+            <i class="fa fa-phone fa-1x ml-1">(309) 694-0404</i>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+        // Get the current year for the copyright
+        $('#year').text(new Date().getFullYear());
+    </script>
+</body>
+
+</html>
