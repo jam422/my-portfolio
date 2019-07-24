@@ -191,6 +191,7 @@ blockquote footer {
 
 @media (max-width: 440px) {
   .quote {
+    margin-top: 5rem;
     margin-bottom: 0;
   }
 }
