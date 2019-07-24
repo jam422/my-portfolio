@@ -88,7 +88,7 @@ body {
 }
 
     #icon_box {
-        width: 250px;
+        width: auto;
         border-radius: 5px;
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.849);
         color: #fff;
@@ -152,14 +152,14 @@ body {
   // flex-direction: column;
   // align-content: center;
   // height: auto;
-  margin: 0 auto;
+  // margin: 0 auto;
   color: #fff;
   // margin-top: 1rem;
   margin-bottom: 4rem;
   // justify-content: center;
   // justify-self: center;
   color: #fff;
-  max-width: 70%;
+  max-width: 100%;
   border-radius: 2rem;
   background: #7F7F7F;
   padding: 3rem;
