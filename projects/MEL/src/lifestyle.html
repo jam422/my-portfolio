@@ -2,322 +2,174 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" href="css/main.css">
-    <title>Bootstrap Theme</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Bootstrap Theme</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-fourth text-secondary">
-        <div class="container">
-            <a href="index.html" class="navbar-brand text-secondary">Mel Hasty Retirement Center</a>
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                <span class="navbar-toggler-icon text-secondary bg-secondary"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a href="index.html" class="nav-link text-secondary">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="lifestyle.html" class="nav-link text-secondary">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="about.html" class="nav-link text-secondary">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="contact.html" class="nav-link text-secondary">Blog</a>
-                    </li>
-                </ul>
-            </div>
+  <!--Navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-fourth text-white">
+    <div class=" d-flex flex-column">
+      <a href="index.html" class="navbar-brand text-white text-center mr-auto">Mel Hasty</a>
+
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
+      aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a href="index.html" class="nav-link text-white">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="lifestyle.html" class="nav-link text-white">Lifestyle</a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link text-white">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a href="contact.html" class="nav-link text-white">Contact</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav nav-flex-icons ml-auto">
+        <i class="fa fa-phone fa-1x">
+          <a id="nav-phone" href="tel:+1-309-694-0404">(309) 694-0404</a>
+        </i>
+      </ul>
+    </div>
+
+  </nav>
+  <!--/.Navbar -->
+
+  <!-- PAGE HEADER -->
+  <header id="page-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 m-auto text-center">
+          <h1>Lifestyle</h1>
+          <p>Get a feel for the lifestyle here at Mel Hasty by viewing photos of the facility below.</p>
         </div>
-    </nav>
+      </div>
+    </div>
+  </header>
 
-    <!-- PAGE HEADER -->
-    <header id="page-header">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 m-auto text-center">
-                    <h1>Our Services</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, temporibus?</p>
-                </div>
-            </div>
-        </div>
-    </header>
+  <!-- SERVICES SECTION -->
+  <div class="lifestyle py-2 my-4">
+    <div class="container">
+      <h1 class="text-center text-white">Take a look at some pictures of the facility.</h1>
+      <p class="text-center text-white">
+        Below you will find pictures that capture the lifestyle here at Mel Hasty.
+      </p>
+    </div>
+  </div>
+  <div class="container">
 
-    <!-- SERVICES SECTION -->
-    <section id="services" class="py-5 bg-secondary">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card text-center">
-                        <div class="card-header bg-dark text-white">
-                            <h3>Service Plan One</h3>
-                        </div>
-                        <div class="card-body">
-                            <h4 class="card-title">$59.99/Month</h4>
-                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, quis.
-                            </p>
-                            <ul class="list-group">
-                                <li class="list-group-item">
-                                    <i class="fas fa-check"></i> Feature One
-                                </li>
-                                <li class="list-group-item">
-                                    <i class="fas fa-check"></i> Feature Two
-                                </li>
-                                <li class="list-group-item">
-                                    <i class="fas fa-check"></i> Feature Three
-                                </li>
-                                <li class="list-group-item">
-                                    <i class="fas fa-check"></i> Feature Four
-                                </li>
-                                <li class="list-group-item">
-                                    <i class="fas fa-check"></i> Feature Five
-                                </li>
-                            </ul>
-                            <a href="#" class="btn btn-danger btn-block mt-2">Get It</a>
-                        </div>
-                        <div class="card-footer text-muted">
-                            1 Year Plan
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card text-center">
-                        <div class="card-header bg-dark text-white">
-                            <h3>Service Plan Two</h3>
-                        </div>
-                        <div class="card-body">
-                            <h4 class="card-title">$99.99/Month</h4>
-                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, quis.
-                            </p>
-                            <ul class="list-group">
-                                <li class="list-group-item">
-                                    <i class="fas fa-check"></i> Feature One
-                                </li>
-                                <li class="list-group-item">
-                                    <i class="fas fa-check"></i> Feature Two
-                                </li>
-                                <li class="list-group-item">
-                                    <i class="fas fa-check"></i> Feature Three
-                                </li>
-                                <li class="list-group-item">
-                                    <i class="fas fa-check"></i> Feature Four
-                                </li>
-                                <li class="list-group-item">
-                                    <i class="fas fa-check"></i> Feature Five
-                                </li>
-                            </ul>
-                            <a href="#" class="btn btn-danger btn-block mt-2">Get It</a>
-                        </div>
-                        <div class="card-footer text-muted">
-                            1 Year Plan
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="card text-center">
-                        <div class="card-header bg-dark text-white">
-                            <h3>Service Plan Three</h3>
-                        </div>
-                        <div class="card-body">
-                            <h4 class="card-title">$129.99/Month</h4>
-                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut, quis.
-                            </p>
-                            <ul class="list-group">
-                                <li class="list-group-item">
-                                    <i class="fas fa-check"></i> Feature One
-                                </li>
-                                <li class="list-group-item">
-                                    <i class="fas fa-check"></i> Feature Two
-                                </li>
-                                <li class="list-group-item">
-                                    <i class="fas fa-check"></i> Feature Three
-                                </li>
-                                <li class="list-group-item">
-                                    <i class="fas fa-check"></i> Feature Four
-                                </li>
-                                <li class="list-group-item">
-                                    <i class="fas fa-check"></i> Feature Five
-                                </li>
-                            </ul>
-                            <a href="#" class="btn btn-danger btn-block mt-2">Get It</a>
-                        </div>
-                        <div class="card-footer text-muted">
-                            1 Year Plan
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Thumbnail Gallery</h1> -->
 
-    <!-- FAQ -->
-    <section id="faq" class="p-5 bg-dark text-white">
-        <div class="container">
-            <h1 class="text-center">Frequently Asked Questions</h1>
-            <hr>
-            <div class="row">
-                <div class="col-md-6">
-                    <div id="accordion">
-                        <div class="card">
-                            <div class="card-header">
-                                <h5 class="mb-0">
-                                    <a href="#collapseOne" data-toggle="collapse" data-parent="accordion">
-                                        Question One
-                                    </a>
-                                </h5>
-                            </div>
+    <hr class="mt-2 mb-5">
 
-                            <div id="collapseOne" class="collapse">
-                                <div class="card-body">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea officiis
-                                    distinctio exercitationem dolor minus placeat
-                                    amet commodi, ab a perspiciatis officia nobis reiciendis numquam totam repudiandae
-                                    molestias nulla, quod
-                                    voluptatibus modi rerum laboriosam tenetur. Nihil, soluta eaque? Minima, deserunt.
-                                </div>
-                            </div>
-                        </div>
+    <div class="row text-center text-lg-left">
 
-                        <div class="card">
-                            <div class="card-header">
-                                <h5 class="mb-0">
-                                    <a href="#collapseTwo" data-toggle="collapse" data-parent="accordion">
-                                        Question Two
-                                    </a>
-                                </h5>
-                            </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="img/lifestyle/foyer.JPG" alt="">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="img/lifestyle/living(0).JPG" alt="">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="img/lifestyle/living(1).JPG" alt="">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="img/lifestyle/kitchen.JPG" alt="">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="img/lifestyle/salon.JPG" alt="">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="img/lifestyle/mail.JPG" alt="">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="img/lifestyle/room/100_0155.JPG" alt="">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="img/lifestyle/room/100_0157.JPG" alt="">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="img/lifestyle/room/100_0160.JPG" alt="">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="img/lifestyle/room/100_0162.JPG" alt="">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="" alt="">
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-4 col-6">
+        <a href="#" class="d-block mb-4 h-100">
+          <img class="img-fluid img-thumbnail" src="" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
 
-                            <div id="collapseTwo" class="collapse">
-                                <div class="card-body">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea officiis
-                                    distinctio exercitationem dolor minus placeat
-                                    amet commodi, ab a perspiciatis officia nobis reiciendis numquam totam repudiandae
-                                    molestias nulla, quod
-                                    voluptatibus modi rerum laboriosam tenetur. Nihil, soluta eaque? Minima, deserunt.
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="card">
-                            <div class="card-header">
-                                <h5 class="mb-0">
-                                    <a href="#collapseThree" data-toggle="collapse" data-parent="accordion">
-                                        Question Three
-                                    </a>
-                                </h5>
-                            </div>
+  <!-- FOOTER -->
+  <section class="footer">
+    <p class="footer__brand">Mel Hasty Retirement Center</p>
+    <p class="footer__brand">Copyright &copy; <span id="year"></span> </p>
+    <ul class="footer__list">
+      <li class="footer__item">
+        <i class="fa fa-phone fa-1x">
+          <a id="nav-phone" href="tel:+1-309-694-0404">(309) 694-0404</a>
+        </i>
+      </li>
+      <li class="footer__item"><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+    </ul>
+  </section>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 
-                            <div id="collapseThree" class="collapse">
-                                <div class="card-body">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea officiis
-                                    distinctio exercitationem dolor minus placeat
-                                    amet commodi, ab a perspiciatis officia nobis reiciendis numquam totam repudiandae
-                                    molestias nulla, quod
-                                    voluptatibus modi rerum laboriosam tenetur. Nihil, soluta eaque? Minima, deserunt.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div id="accordion">
-                        <div class="card">
-                            <div class="card-header">
-                                <h5 class="mb-0">
-                                    <a href="#collapseFour" data-toggle="collapse" data-parent="accordion">
-                                        Question Four
-                                    </a>
-                                </h5>
-                            </div>
+  <script>
+    // $(document).ready(function () {
+    //     "use strict";
 
-                            <div id="collapseFour" class="collapse">
-                                <div class="card-body">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea officiis
-                                    distinctio exercitationem dolor minus placeat
-                                    amet commodi, ab a perspiciatis officia nobis reiciendis numquam totam repudiandae
-                                    molestias nulla, quod
-                                    voluptatibus modi rerum laboriosam tenetur. Nihil, soluta eaque? Minima, deserunt.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header">
-                                <h5 class="mb-0">
-                                    <a href="#collapseFive" data-toggle="collapse" data-parent="accordion">
-                                        Question Five
-                                    </a>
-                                </h5>
-                            </div>
-
-                            <div id="collapseFive" class="collapse">
-                                <div class="card-body">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea officiis
-                                    distinctio exercitationem dolor minus placeat
-                                    amet commodi, ab a perspiciatis officia nobis reiciendis numquam totam repudiandae
-                                    molestias nulla, quod
-                                    voluptatibus modi rerum laboriosam tenetur. Nihil, soluta eaque? Minima, deserunt.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <div class="card-header">
-                                <h5 class="mb-0">
-                                    <a href="#collapseSix" data-toggle="collapse" data-parent="accordion">
-                                        Question Six
-                                    </a>
-                                </h5>
-                            </div>
-
-                            <div id="collapseSix" class="collapse">
-                                <div class="card-body">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt ea officiis
-                                    distinctio exercitationem dolor minus placeat
-                                    amet commodi, ab a perspiciatis officia nobis reiciendis numquam totam repudiandae
-                                    molestias nulla, quod
-                                    voluptatibus modi rerum laboriosam tenetur. Nihil, soluta eaque? Minima, deserunt.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer class="py-4">
-            <div class="container text-center">
-                <small class="ml-auto">Copyright &copy; <span id="year"></span> Mel Hasty Retirement Center</small>
-                <i class="fa fa-facebook fa-1x ml-5"></i>
-                <i class="fa fa-phone fa-1x ml-1">(309) 694-0404</i>
-            </div>
-        </footer>
-
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
-    <script>
-        // $(document).ready(function () {
-        //     "use strict";
-
-        //     $('ul.navbar-nav > li').click(function (e) {
-        //         e.preventDefault();
-        //         $('ul.navbar-nav > li').removeClass('active');
-        //         $(this).addClass('active');
-        //     });
-        // });
-        // // Get the current year for the copyright
-        $('#year').text(new Date().getFullYear());
-    </script>
+    //     $('ul.navbar-nav > li').click(function (e) {
+    //         e.preventDefault();
+    //         $('ul.navbar-nav > li').removeClass('active');
+    //         $(this).addClass('active');
+    //     });
+    // });
+    // // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+  </script>
 </body>
 
 </html>

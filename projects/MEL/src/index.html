@@ -14,10 +14,10 @@
 
 <body>
     <!--Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-fourth bg- text-secondary">
-        <div class="brand-wrap d-flex flex-column">
-            <a href="index.html" class="navbar-brand text-secondary">Mel Hasty</a>
-            <a href="index.html" class="navbar-brand text-secondary">Retirement Center</a>
+    <nav class="navbar navbar-expand-md navbar-dark bg-fourth text-white">
+        <div class=" d-flex flex-column">
+            <a href="index.html" class="navbar-brand text-white text-center mr-auto">Mel Hasty</a>
+
         </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
             aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,20 +26,21 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home
-                        <span class="sr-only">(current)</span>
-                    </a>
+                    <a href="index.html" class="nav-link text-white">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a href="lifestyle.html" class="nav-link text-white">Lifestyle</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pricing</a>
+                    <a href="about.html" class="nav-link text-white">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link text-white">Contact</a>
                 </li>
             </ul>
-            <ul class="navbar-nav ml-auto nav-flex-icons">
+            <ul class="navbar-nav nav-flex-icons ml-auto">
                 <i class="fa fa-phone fa-1x">
-                    <a href="tel:+1-309-694-0404">(309) 694-0404</a>
+                    <a id="nav-phone" href="tel:+1-309-694-0404">(309) 694-0404</a>
                 </i>
             </ul>
         </div>
@@ -47,39 +48,38 @@
     </nav>
     <!--/.Navbar -->
 
-    <div class="jumbotron jumbotron-fluid mb-5">
+    <!-- PAGE HEADER -->
+    <header id="page-header">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 m-auto text-center text-white">
-                    <h1 class="display-3">Mel Hasty</h1>
-                    <h1>Retirement Center</h1>
-                    <p class="lead">The facility is open to residents 62 years and older. Residential programs include
-                        potluck dinners, musical entertainment, cookouts and crafts to encourage fellowship.</p>
-                    <a href="#" class="btn btn-secondary btn-lg">Contact Us</a>
+                <div class="col-md-6 m-auto text-center">
+                    <h1>Mel Hasty</h1>
+                    <p>We offer equal housing to all applicants. Call us to find out more.</p>
+
                 </div>
             </div>
         </div>
-    </div>
+    </header>
 
     <!--HOME ICON SECTION  -->
-    <div class="container-fluid services py-4 mb-2">
+    <div class="container-fluid services py-4 mb-5">
         <div class="row">
-            <div class="col-md-3 mx-auto my-2 text-center" id="icon_box">
+            <div class="col-lg-2 mx-auto my-2 text-center" id="icon_box">
                 <i class="fa fa-heart fa-3x mb-2"></i>
                 <h3>Quality Care</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
             </div>
-            <div class="col-md-3 mx-auto my-2 text-center" id="icon_box">
+            <div class="col-lg-2 mx-auto my-2 text-center" id="icon_box">
                 <i class="fa fa-home fa-3x mb-2"></i>
                 <h3>Equal Housing</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
             </div>
-            <div class="col-md-3 mx-auto my-2 text-center" id="icon_box">
+            <div class="col-lg-2 mx-auto my-2 text-center" id="icon_box">
                 <i class="fa fa-cutlery fa-3x mb-2"></i>
                 <h3>Meals-On-Wheels</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
             </div>
-            <div class="col-md-3 mx-auto my-2 text-center" id="icon_box">
+            <div class="col-lg-2 mx-auto my-2 text-center" id="icon_box">
                 <i class="fa fa-wheelchair fa-3x mb-2"></i>
                 <h3>Door-to-Door</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero, veniam.</p>
@@ -87,8 +87,8 @@
         </div>
     </div>
 
-    <div class="row intro mb-5">
-        <div class="col-lg-8 mx-auto p-3">
+    <div class="row">
+        <div class="container intro col-lg-8 p-3">
             <h3 class="text-center">A Thriving Community in the Heart of East Peoria</h3>
             <hr>
             <p>Nesteled close the head of Springiel Road, Mel Hasty Retirement Center ovelooks bustling Main Street in
@@ -140,13 +140,25 @@
     </div>
 
     <!-- FOOTER -->
-    <footer class="py-4">
+    <!-- <footer class="py-4">
         <div class="container text-center">
             <small class="ml-auto">Copyright &copy; <span id="year"></span> Mel Hasty Retirement Center</small>
             <i class="fa fa-facebook fa-1x ml-5"></i>
             <i class="fa fa-phone fa-1x ml-1">(309) 694-0404</i>
         </div>
-    </footer>
+    </footer> -->
+    <section class="footer">
+        <p class="footer__brand">Mel Hasty Retirement Center</p>
+        <p class="footer__brand">Copyright &copy; <span id="year"></span> </p>
+        <ul class="footer__list">
+            <li class="footer__item">
+                <i class="fa fa-phone fa-1x">
+                    <a id="nav-phone" href="tel:+1-309-694-0404">(309) 694-0404</a>
+                </i>
+            </li>
+            <li class="footer__item"><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+        </ul>
+    </section>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
