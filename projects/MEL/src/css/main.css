@@ -91,6 +91,7 @@ a.navbar-brand:hover {
 
 .intro {
   margin: 0 auto;
+  text-align: center;
   color: #fff;
   max-width: 75%;
   margin-bottom: 4rem;
