@@ -190,6 +190,10 @@ blockquote footer {
   animation: vac 1s infinite; }
 
 @media (max-width: 440px) {
+  .mission {
+    margin-bottom: 2rem;
+  }
+  
   .quote {
     margin-top: 5rem;
     margin-bottom: 0;
