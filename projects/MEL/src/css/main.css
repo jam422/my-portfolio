@@ -4,7 +4,7 @@ html {
   overflow-x: hidden; }
 
 body {
-  overflow-x: hidden;
+  overflow: hidden;
   background: linear-gradient(to left, #C1C8E4, #84CEEB); }
 
 .navbar .nav-link {
@@ -188,6 +188,12 @@ blockquote footer {
 
 .animate-vac {
   animation: vac 1s infinite; }
+
+@media (max-width: 440px) {
+  .quote {
+    margin-bottom: 0;
+  }
+}
 
 @media (max-width: 500px) {
   .test-container {
