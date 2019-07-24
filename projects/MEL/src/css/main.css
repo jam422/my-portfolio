@@ -51,6 +51,8 @@ a.navbar-brand:hover {
 
 #icon_box {
   width: auto;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
   border-radius: 5px;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.849);
   color: #fff;
