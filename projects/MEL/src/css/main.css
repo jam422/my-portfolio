@@ -256,7 +256,7 @@ blockquote footer {
   box-shadow: rgba(0, 0, 0, 0.075);
 }
 
-#gallery .container {
+#gallery .container-fluid {
   max-width: 100%;
 }
 
