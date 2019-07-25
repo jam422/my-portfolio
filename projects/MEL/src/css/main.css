@@ -250,14 +250,9 @@ blockquote footer {
 
 #gallery {
   /* padding: 7rem; */
-  width: 90%;
   border-radius: 5px;
   background: #7F7F7F;
   box-shadow: rgba(0, 0, 0, 0.075);
-}
-
-#gallery .container-fluid {
-  max-width: 100%;
 }
 
 .footer {
