@@ -261,13 +261,14 @@ blockquote footer {
 
 .footer ul {
   display: flex;
-  margin-right: auto;
+  /* margin-right: auto; */
   list-style: none; }
 
 .footer ul li a i {
   transition: all .3s;
   color: #fff;
-  margin-left: auto; }
+  /* margin-left: auto; */
+ }
 
 .footer ul li a i:hover {
   color: #5AB9EA; }
