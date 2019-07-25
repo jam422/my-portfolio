@@ -271,7 +271,9 @@ blockquote footer {
  }
 
 .footer ul li a i:hover {
-  color: #5AB9EA; }
+  color: #5AB9EA; 
+  margin-right: 0.3rem;
+}
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
