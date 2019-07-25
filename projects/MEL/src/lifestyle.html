@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/font-awesome.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" />
   <title>Bootstrap Theme</title>
 </head>
 
@@ -72,64 +73,54 @@
     <div class="row text-center text-lg-left">
 
       <div class="col-md4 mb-3">
-        <a href="#" class="d-block h-50">
+        <a href="#" data-toggle="lightbox">
           <img class="img-fluid img-thumbnail" src="img/lifestyle/foyer.JPG" alt="">
         </a>
         <h5>Common room</h5>
       </div>
       <div class="col-md4 mb-3">
-        <a href="#" class="d-block h-50">
+        <a href="#" data-toggle="lightbox">
           <img class="img-fluid img-thumbnail" src="img/lifestyle/living(0).JPG" alt="">
         </a>
       </div>
       <div class="col-md4 mb-3">
-        <a href="#" class="d-block h-50">
+        <a href="#" data-toggle="lightbox">
           <img class="img-fluid img-thumbnail" src="img/lifestyle/living(1).JPG" alt="">
         </a>
       </div>
       <div class="col-md4 mb-3">
-        <a href="#" class="d-block h-50">
+        <a href="#" data-toggle="lightbox">
           <img class="img-fluid img-thumbnail" src="img/lifestyle/kitchen.JPG" alt="">
         </a>
       </div>
       <div class="col-md4 mb-3">
-        <a href="#" class="d-block h-50">
+        <a href="#" data-toggle="lightbox">
           <img class="img-fluid img-thumbnail" src="img/lifestyle/salon.JPG" alt="">
         </a>
       </div>
       <div class="col-md4 mb-3">
-        <a href="#" class="d-block h-50">
+        <a href="#" data-toggle="lightbox">
           <img class="img-fluid img-thumbnail" src="img/lifestyle/mail.JPG" alt="">
         </a>
       </div>
       <div class="col-md4 mb-3">
-        <a href="#" class="d-block h-50">
+        <a href="#" data-toggle="lightbox">
           <img class="img-fluid img-thumbnail" src="img/lifestyle/room/100_0155.JPG" alt="">
         </a>
       </div>
       <div class="col-md4 mb-3">
-        <a href="#" class="d-block h-50">
+        <a href="#" data-toggle="lightbox">
           <img class="img-fluid img-thumbnail" src="img/lifestyle/room/100_0157.JPG" alt="">
         </a>
       </div>
       <div class="col-md4 mb-3">
-        <a href="#" class="d-block h-50">
+        <a href="#" data-toggle="lightbox">
           <img class="img-fluid img-thumbnail" src="img/lifestyle/room/100_0160.JPG" alt="">
         </a>
       </div>
       <div class="col-md4 mb-3">
-        <a href="#" class="d-block h-50">
+        <a href="#" data-toggle="lightbox">
           <img class="img-fluid img-thumbnail" src="img/lifestyle/room/100_0162.JPG" alt="">
-        </a>
-      </div>
-      <div class="col-md4 mb-3">
-        <a href="#" class="d-block h-50">
-          <img class="img-fluid img-thumbnail" src="" alt="">
-        </a>
-      </div>
-      <div class="col-md4 mb-3">
-        <a href="#" class="d-block h-50">
-          <img class="img-fluid img-thumbnail" src="" alt="">
         </a>
       </div>
     </div>
@@ -154,16 +145,12 @@
   <script src="js/bootstrap.min.js"></script>
 
   <script>
-    // $(document).ready(function () {
-    //     "use strict";
+    // Lightbox Init
+    $(document).on('click', '[data-toggle="lightbox"]', function (event) {
+      event.preventDefault();
+      $(this).ekkoLightbox();
+    });
 
-    //     $('ul.navbar-nav > li').click(function (e) {
-    //         e.preventDefault();
-    //         $('ul.navbar-nav > li').removeClass('active');
-    //         $(this).addClass('active');
-    //     });
-    // });
-    // // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
   </script>
 </body>
