@@ -249,8 +249,7 @@ blockquote footer {
     box-shadow: 0 0 0 30px rgba(0, 0, 0, 0); } }
 
 #gallery {
-  padding: 3rem;
-  width: 90%;
+  padding: 7rem;
   border-radius: 5px;
   background: #7F7F7F;
   box-shadow: rgba(0, 0, 0, 0.075);
