@@ -248,6 +248,11 @@ blockquote footer {
   100% {
     box-shadow: 0 0 0 30px rgba(0, 0, 0, 0); } }
 
+#gallery {
+  background: #7F7F7F;
+  box-shadow: rgba(0, 0, 0, 0.075);
+}
+
 .footer {
   display: flex;
   color: #fff;
