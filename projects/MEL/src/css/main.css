@@ -151,15 +151,15 @@ blockquote footer {
 .test-container {
   width: 80%;
   border: 2px solid #ccc;
-  background-color: #5680E9;
+  background-color: #567f8d;
   color: #ffe6d0;
   border-radius: 5px;
   padding: 16px;
   margin: 2rem auto; }
 
 .test-container span {
-  color: #b77a78;
-  border-bottom: #00a676 solid 1px; }
+  color: #fff;
+  border-bottom: #062c33 solid 1px; }
 
 .test__paragraph {
   color: #ccc; }
