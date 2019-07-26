@@ -23,12 +23,12 @@ a.navbar-brand {
 
 a.navbar-brand:hover {
   color: #5AB9EA !important; 
-  border-bottom: 1px solid #062c33 !important;
+  text-shadow: 3px 5px 2px #474747;
 }
 
 .navbar .nav-link:hover {
   color: #5AB9EA !important; 
-  border-bottom: 1px solid #062c33 !important;
+  text-shadow: 3px 5px 2px #474747;
 }
 
 .fa {
