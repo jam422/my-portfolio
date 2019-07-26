@@ -193,6 +193,10 @@ blockquote footer {
   .mission {
     margin-bottom: 2rem;
   }
+
+  #icon_box {
+    width: 90%;
+  }
   
   .quote {
     margin-top: 8rem;
