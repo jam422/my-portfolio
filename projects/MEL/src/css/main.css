@@ -22,10 +22,14 @@ a.navbar-brand {
   font-size: 2.2rem; }
 
 a.navbar-brand:hover {
-  color: #5AB9EA !important; }
+  color: #5AB9EA !important; 
+  border-bottom: 1px solid #062c33 !important;
+}
 
 .navbar .nav-link:hover {
-  color: #5AB9EA !important; }
+  color: #5AB9EA !important; 
+  border-bottom: 1px solid #062c33 !important;
+}
 
 .fa {
   transition: all .5s;
