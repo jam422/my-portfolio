@@ -151,7 +151,7 @@ blockquote footer {
 .test-container {
   width: 80%;
   border: 2px solid #ccc;
-  background-color: #1c51d7;
+  background-color: #5680E9;
   color: #fff;
   border-radius: 5px;
   padding: 16px;
@@ -159,7 +159,7 @@ blockquote footer {
 
 .test-container span {
   color: #fff;
-  border-bottom: #062c33 solid 1px; }
+  border-bottom: #1c51d7 solid 1px; }
 
 .test__paragraph {
   color: #ccc; }
