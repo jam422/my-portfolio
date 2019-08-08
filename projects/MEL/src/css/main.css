@@ -195,6 +195,14 @@ blockquote footer {
 .animate-vac {
   animation: vac 1s infinite; }
 
+.modal-header {
+  color: #5680E9;
+}
+
+.modal-footer {
+  color: #5680E9;
+}
+
 @media (max-width: 440px) {
   .mission {
     margin-bottom: 2rem;
@@ -257,6 +265,20 @@ blockquote footer {
     box-shadow: 0 0 0 0px rgba(74, 163, 236, 0.5); }
   100% {
     box-shadow: 0 0 0 30px rgba(0, 0, 0, 0); } }
+
+.boxShadow {
+  box-shadow: 2px 2px 2px rgba(74, 163, 236, 0.5);
+}
+
+hr {
+  border-top: 1px solid #007bff;
+}
+
+.pText {
+  color: #007bff;
+  font-weight: bold;
+  /* text-transform: uppercase; */
+}
 
 #gallery {
   max-width: 100%;
