@@ -197,6 +197,7 @@ blockquote footer {
    text-transform: uppercase;
    font-weight: bold;
    text-decoration: underline;
+   color: #923c64;
  }
 
 .form__text {
