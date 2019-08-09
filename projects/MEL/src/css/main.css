@@ -40,7 +40,7 @@ a.navbar-brand:hover {
 .jumbotron {
   height: auto;
   justify-items: center;
-  background-image: linear-gradient(to right bottom, rgba(83, 117, 107, 0.315), rgba(21, 25, 41, 0.8)), url(../img/100_0168.JPG);
+  background-image: linear-gradient(to right bottom, rgba(128, 243, 209, 0.315), rgba(21, 25, 41, 0.8)), url(../img/100_0168.JPG);
   background-repeat: no-repeat;
   background-position: center bottom;
   background-attachment: fixed;
@@ -70,7 +70,7 @@ a.navbar-brand:hover {
 
 #page-header {
   height: 400px;
-  background-image: linear-gradient(to right bottom, rgba(83, 117, 107, 0.315), rgba(21, 25, 41, 0.8)), url(../img/100_0168.JPG);
+  background-image: linear-gradient(to right bottom, rgba(83, 117, 107, 0.315), rgba(177, 193, 255, 0)), url(../img/100_0168.JPG);
   background-position: center bottom;
   background-attachment: fixed;
   background-size: cover;
@@ -155,15 +155,15 @@ blockquote footer {
 .test-container {
   width: 80%;
   border: 2px solid #ccc;
-  background-color: #5680E9;
+  background-color: #7F7F7F;
   color: #fff;
   border-radius: 5px;
   padding: 16px;
   margin: 2rem auto; }
 
 .test-container span {
-  color: #21a1e3;
-  border-bottom: #13c4a3 solid 1px; }
+  color: #007bff;
+  border-bottom: #007bff solid 1px; }
 
 .test__paragraph {
   color: #fff; }
@@ -180,14 +180,24 @@ blockquote footer {
 
 .test-container span {
   font-size: 20px;
-  color: #13c4a3;
+  color: #2a71bd;
   margin-right: 15px; }
 
 .about__heading {
   color: #fff; }
 
 .about__p {
-  color: #32322c; }
+    font-size: 1.4em;
+    padding: 0.4rem;
+    color: #fff;
+    background-color: #7F7F7F;
+ }
+
+ #smoke__free {
+   text-transform: uppercase;
+   font-weight: bold;
+   text-decoration: underline;
+ }
 
 .form__text {
   color: #5680E9; }
