@@ -18,11 +18,12 @@ body {
   padding-right: 1rem !important; }
 
 a.navbar-brand {
+  flex-wrap: wrap;
   transition: all .4s;
   font-size: 2.2rem; }
 
 a.navbar-brand:hover {
-  color: #5AB9EA !important; 
+  color: #5AB9EA !important;   
   text-shadow: 3px 5px 2px #474747;
 }
 
