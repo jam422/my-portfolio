@@ -1,0 +1,14 @@
+{
+  "name": "kaylyns_photography",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Justin A. Maynard",
+  "license": "ISC",
+  "devDependencies": {
+    "font-awesome": "^4.7.0"
+  }
+}
