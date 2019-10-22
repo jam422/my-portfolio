@@ -31,7 +31,7 @@ header {
   border-radius: 4px; }
 
 #services {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   max-width: 100%;
   padding: 15px; }
