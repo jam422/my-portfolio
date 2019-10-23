@@ -107,21 +107,21 @@ a.navbar-brand:hover {
 .footer {
   display: flex;
   color: #b39b52;
-  align-items: center;
-  justify-content: center;
+  align-items: stretch;
+  justify-content: space-evenly;
   flex-direction: row;
   text-align: center;
   height: 4rem;
   font-size: 1.3rem;
   padding: 1.5rem;
-  max-width: 100%;
-  border-top: 1px solid #b39b52; }
+  border-top: 1px solid #b39b52; 
+}
 
-.footer-copy {
+/* .footer-copy {
   margin-right: 10rem; }
 
 .footer-icons a {
-  margin-right: auto; }
+  margin-right: auto; } */
 
 .footer a i {
   transition: all 0.3s;
