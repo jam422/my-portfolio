@@ -107,11 +107,11 @@ a.navbar-brand:hover {
 .footer {
   display: flex;
   color: #b39b52;
-  align-items: stretch;
+  align-items: center;
   justify-content: space-evenly;
   flex-direction: row;
   text-align: center;
-  height: 4rem;
+  height: auto;
   font-size: 1.3rem;
   padding: 1.5rem;
   border-top: 1px solid #b39b52; 
