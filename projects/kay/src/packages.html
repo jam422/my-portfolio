@@ -15,7 +15,7 @@
 
 <body>
     <!--Navbar -->
-    <nav class="navbar navbar-expand-md navbar-dark bg-fourth text-font">
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark text-font">
         <a href="index.html" class="navbar-brand mx-4">Kaylyn
             Photography</a>
         <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse"
@@ -42,16 +42,16 @@
 
     </nav>
     <!--/.Navbar -->
-    <section id="services" class="py-5 mt-4 mb-5">
+    <section id="services" class="py-5 mt-5 mb-5">
         <h1 class="package-heading text-center mb-5">Prices and Packages</h1>
         <div class="container d-flex h-auto">
             <div class="row justify-content-center align-self-center">
                 <div class="col-md-4 my-3">
-                    <div class="card text-center">
-                        <div class="card-header bg-fourth text-font">
+                    <div class="card text-center package">
+                        <div class="card-header bg-fourth card-heading">
                             <h3>GOLD PACKAGE</h3>
                         </div>
-                        <div class="card-body">
+                        <div class="card-body mb-1">
                             <h4 class="card-title">$1,000</h4>
                             <ul class="list-group">
                                 <li class="list-group-item">
@@ -75,8 +75,8 @@
                     </div>
                 </div>
                 <div class="col-md-4 my-3">
-                    <div class="card text-center">
-                        <div class="card-header bg-fourth text-font">
+                    <div class="card text-center package">
+                        <div class="card-header bg-fourth card-heading">
                             <h3>SILVER PACKAGE</h3>
                         </div>
                         <div class="card-body">
@@ -105,11 +105,11 @@
                     </div>
                 </div>
                 <div class="col-md-4 my-3">
-                    <div class="card text-center">
-                        <div class="card-header bg-fourth text-font">
+                    <div class="card text-center package">
+                        <div class="card-header bg-fourth card-heading">
                             <h3>BRONZE PACKAGE</h3>
                         </div>
-                        <div class="card-body">
+                        <div class="card-body mb-5">
                             <h4 class="card-title">$250</h4>
                             <ul class="list-group">
                                 <li class="list-group-item">
@@ -147,6 +147,7 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/card.js"></script>
 
     <script>
         $('#year').text(new Date().getFullYear());
