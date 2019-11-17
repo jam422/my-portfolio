@@ -2,9 +2,13 @@
 :root {
   --color1: #94b094;
   --color2: #698274;
-  --color3: #3e4e53;
+  --color3: #334044;
   --color4: #516b64;
-  --color5: #b39b52; }
+  --color5: #b39b52; 
+  --color6: #C3DFE0;
+  --color7: #7D6D61;
+  --color8: #EAEAEA;
+}
 
 *,
 *::before,
@@ -64,29 +68,37 @@ header {
   letter-spacing: 0.2rem;
   text-transform: uppercase; }
 
+
+
 header img {
   width: auto;
   height: auto; }
 
 .navbar {
-  border-bottom: 1px solid #b39b52; }
+  border-bottom: 1px solid var(--color4); 
+  /* box-shadow: 2px 2px rgba(0, 0, 0, 0.7); */
+}
 
 .navbar .nav-link {
+  color: var(--color8) !important; 
   transition: all .4s;
   font-size: 1.2rem;
   text-transform: uppercase; }
 
 a.navbar-brand {
+  color: var(--color8) !important; 
   transition: all .4s;
   font-size: 2.2rem; }
 
 a.navbar-brand:hover {
-  color: #b39b52 !important;
-  text-shadow: 3px 5px 2px #474747; }
+  color: var(--color1) !important;
+  /* text-shadow: 3px 5px 2px #0000007c;  */
+  /* text-decoration: underline; */
+}
 
 .navbar .nav-link:hover {
-  color: #b39b52 !important;
-  text-shadow: 3px 5px 2px #474747; }
+  color: var(--color1) !important;
+  text-shadow: 3px 5px 2px #bbbbbb; }
 
 #page-header {
   padding: 2rem;
@@ -102,33 +114,36 @@ a.navbar-brand:hover {
 
 .package-heading {
   font-size: 3rem;
-  color: #fff; }
+  color: var(--color6); }
 
 .footer {
-  display: flex;
-  color: #b39b52;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-direction: row;
-  text-align: center;
+  
+  color: var(--color8);
+  /* text-align: center; */
   height: auto;
   font-size: 1.3rem;
-  padding: 1.5rem;
-  border-top: 1px solid #b39b52; 
+  /* padding: 1.5rem; */
+  padding: 1rem 0;
+  border-top: 1px solid var(--color4); 
 }
 
-/* .footer-copy {
-  margin-right: 10rem; }
-
-.footer-icons a {
-  margin-right: auto; } */
-
-.footer a i {
+.footer a:link  {
   transition: all 0.3s;
-  color: #9aadbf; }
+  color: var(--color8) !important; 
+}
 
-.footer a i:hover {
-  color: var(--color5); }
+.footer a:visited {
+  color: var(--color8) !important;
+}
+
+.footer a:active {
+  color: var(--color5);
+}
+
+.footer a:hover {
+  color: var(--color1) !important; 
+}
+
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
