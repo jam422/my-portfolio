@@ -60,7 +60,7 @@ header {
   min-height: 100%; }
 
   @media (min-width: 320px) {
-  .at-container {
+  header {
     margin-top: 6rem !important;
   }
 
