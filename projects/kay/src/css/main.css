@@ -59,10 +59,10 @@ header {
   justify-content: center;
   min-height: 100%; }
 
-  @media (min-width: 320px) {
-  header {
-    margin-top: 6rem !important;
-  }
+  @media (max-width: 320px) {
+    header {
+      margin-top: 6rem !important;
+    }
   }
 
 .at-item {
