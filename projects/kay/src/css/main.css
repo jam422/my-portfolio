@@ -114,8 +114,9 @@ a.navbar-brand {
 }
 
 #page-header {
+  margin-top: 5rem;
   padding: 2rem;
-  color: #fff; }
+  color: var(--color2); }
 
 .contact {
   margin-top: 5rem;
@@ -3446,7 +3447,7 @@ input[type="button"].btn-block {
 
 .navbar-expand {
   flex-flow: row nowrap;
-  justify-content: center; }
+  justify-content: flex-start; }
   .navbar-expand > .container,
   .navbar-expand > .container-fluid {
     padding-right: 0;
