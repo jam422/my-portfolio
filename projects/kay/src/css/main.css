@@ -58,12 +58,12 @@ header {
   align-items: center;
   justify-content: center;
   min-height: 100%; }
-  
+}
+
   @media (min-width: 320px) {
   .at-container {
     margin-top: 6rem !important;
   }
-}
 
 
 .at-item {
