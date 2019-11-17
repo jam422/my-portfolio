@@ -3351,7 +3351,7 @@ input[type="button"].btn-block {
 
 @media (max-width: 320px) {
   .navbar-brand {
-    margin: 0  !important;
+    margin: 0 auto !important;
   }
 }
 
