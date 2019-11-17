@@ -37,7 +37,7 @@ header {
 
 @media (min-width: 320px) {
 #gallery{
-    margin-top: 3.2rem !important;
+    margin-top: 6rem !important;
  }
 
 #services {
@@ -48,7 +48,7 @@ header {
 
 @media (min-width: 320px) {
   #services {
-    margin-top: 3.2rem !important;
+    margin-top: 6rem !important;
   }
 }
 
@@ -60,7 +60,7 @@ header {
   
   @media (min-width: 320px) {
   .at-container {
-    margin-top: 3.2rem !important;
+    margin-top: 6rem !important;
   }
 }
 
@@ -138,7 +138,7 @@ a.navbar-brand {
 
 @media (min-width: 320px) {
   #page-header {
-    margin-top: 3.2rem !important;
+    margin-top: 6rem !important;
 }
 
 .contact {
