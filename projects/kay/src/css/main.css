@@ -25,7 +25,8 @@ body {
 
 /* navigation styles start here */
 header {
-  margin-top: 7rem;
+  margin-top: 8.5rem;
+  padding-top: 3.5rem;
   display: flex;
     min-height: 100%;
   flex-direction: column; }
@@ -62,6 +63,7 @@ header {
 
   @media (max-width: 320px) {
     header {
+      padding-top: 3rem;
       margin-top: 7.2rem !important;
     }
   }
