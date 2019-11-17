@@ -3349,7 +3349,7 @@ input[type="button"].btn-block {
   } 
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 320px) {
   .navbar-brand {
     margin: 0 auto;
   }
