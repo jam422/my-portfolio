@@ -46,6 +46,13 @@ header {
   align-items: center;
   justify-content: center;
   min-height: 100vh; }
+  
+  @media (min-width: 320px) {
+  .at-container {
+    margin-top: 5rem !important;
+  }
+}
+
 
 .at-item {
   animation-name: angry-animation;
