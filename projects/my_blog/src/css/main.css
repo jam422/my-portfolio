@@ -270,8 +270,13 @@ a.btn {
   } 
 
 /***********INTRO************/
-section:not(.hero):nth-child(even) {
+.intro{
+  color: var(--color1);
 	background-color: var(--color5);
+}
+
+#choice {
+  text-decoration: underline;
 }
 
 .grid {
@@ -282,7 +287,7 @@ section:not(.hero):nth-child(even) {
 }
 
 hr {
-	width: 250px;
+	width: 50%;
 	height: 3px;
 	background-color: var(--color1);
 	border: 0;
