@@ -210,4 +210,9 @@ a.btn {
   .hero {
     height: 100vh;
   }
+
+  .hero-content-area {
+    margin-top: 0;
+  }
+
 }
