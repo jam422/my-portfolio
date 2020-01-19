@@ -32,7 +32,7 @@ body {
     background-color: var(--color3);
     border-bottom: 1px solid var(--color6);
     display: flex;
-    
+    font-size: 1.2rem;
     align-items: center;    
     height: 3rem;    
     width: 100%;
@@ -41,6 +41,7 @@ body {
     .nav__list {
         display: flex;
         justify-items: flex-end;
+        margin-right: 2rem;
     }
 
     .nav__list-item {
@@ -49,7 +50,7 @@ body {
     }
 
     .nav a {
-        text-transform: uppercase;
+
         text-decoration: none;
         color: #fff;
         transition: all 0.3s ease-in-out;
@@ -66,7 +67,7 @@ body {
 
     .logo {
         margin-right: auto;
-        margin-left: 0.3rem;
+        margin-left: 2rem;
     }
 
 #page-header {
