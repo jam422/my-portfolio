@@ -160,7 +160,7 @@ a.btn {
   }
 
   .hero {
-    min-height: 480px;
+    min-height: 100%;
   }
 
     .Navbar__Link-brand {
