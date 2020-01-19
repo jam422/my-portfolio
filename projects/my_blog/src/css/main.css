@@ -5,6 +5,7 @@
     --color3: rgba(91, 86, 86, 1);
     --color4: rgba(77, 70, 70, 1);
     --color5: rgba(38, 12, 26, 1);
+    --color51: rgba(38, 12, 26, 0.9);
     --color6: rgba(99, 97, 97, 0.7);
 }
 
@@ -83,8 +84,8 @@ body {
   
 
 .header-container {
-    background-color: rgba(0, 0, 0, 0.7);
-    width: 50%;
+    background-color: var(--color51);
+    width: 20%;
     text-align: center;
     position: absolute;
     left: 50%;
@@ -137,7 +138,7 @@ body {
 }
 @media only screen and (min-width: 1000px) {
     .header-container {
-      width: 18.5%;
+ 
     }
     #page-header {
         background-attachment: fixed;
