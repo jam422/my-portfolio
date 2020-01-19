@@ -188,7 +188,7 @@ a.btn {
   }
 
     .Navbar__Link-brand {
-    align-self: center;
+    align-self: flex-start;
   }
 
 }
