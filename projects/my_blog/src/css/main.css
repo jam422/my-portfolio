@@ -30,6 +30,10 @@ body {
     display: flex;    
     width: 100%;
     border-bottom: 1px solid var(--color1);
+        position: sticky;
+    /* position: -webkit-sticky; */
+    top: 0;
+    z-index: 1;
 }
 
 .nav {
@@ -59,7 +63,7 @@ body {
         transition: all 0.3s ease-in-out;
     }
 
-        .nav a:hover {
+        .nav .nav__list-item a:hover {
             color: var(--color2);
             border-bottom: 1px solid var(--color2);
         }
@@ -73,9 +77,14 @@ body {
         margin-left: 2rem;
     }
 
+        .logo a:hover {
+            color: var(--color2);
+            border-bottom: none !important;
+        }
+
 #page-header {
     width: 100%;
-    height: 87.6vh;
+    height: 100vh;
     background-image: url(../img/jansen_and_daddy.jpg), linear-gradient(10deg, var(--color1), var(--color3));
     background-repeat: no-repeat;
     
@@ -99,30 +108,47 @@ body {
     padding: 3rem;
 }
 
-    .page-heading_one {
-        
+    .page-heading_one {        
         letter-spacing: 6px;
     }
 
     .page-heading_two {
         font-size: 1rem;
-        letter-spacing: 3px;
-        
+        letter-spacing: 3px;        
         font-style: oblique;
     }
 
+/****************** MAIN CONTAINER ***************/
+
+.main-container {
+    min-height: calc(100vh - 5rem - 8rem);
+    width: 100%;
+}
+
+/****************** FOOTER ***************/
+
+.footer {
+    height: 8rem;
+    padding: 1rem;
+    /* background: linear-gradient(25deg, var(--color3), var(--color52)); */
+    background-color: #fff;
+}
+
+/****************** MEDIA QUERIES ***************/
 
 @media only screen  and (min-width : 1224px) {
-
     .header {
         height: 5rem;
+    }
+
+    .header-container {
+        top: 60%;
     }
 
     #page-header {
         background-position: center;
         background-repeat: no-repeat;
         background-size: auto;
-   
     }
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
@@ -142,7 +168,7 @@ body {
         margin: 0 auto;
         
     }
-    .logo { padding-top: 0.3rem; margin: 0 auto; margin-bottom: 10px;}
+    .logo { padding-top: 0.3rem; margin: 0 auto; margin-bottom: 0.2rem;}
     .header { height: 5rem; }
     #page-header {
         background-position: center;
