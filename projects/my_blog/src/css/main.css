@@ -24,14 +24,14 @@ body {
 }
 
 .header {    
-    display: flex;
+    display: flex;    
 }
 
 .nav {
     background-color: var(--color3);
     border-bottom: 1px solid var(--color6);
     display: flex;
-    justify-content: flex-end;
+    
     align-items: center;    
     height: 3rem;    
     width: 100%;
@@ -39,10 +39,11 @@ body {
 
     .nav__list {
         display: flex;
+        justify-items: flex-end;
     }
 
     .nav__list-item {
-        padding: 0 1rem;
+        padding: 0 0.2rem;
         list-style: none;
     }
 
@@ -64,7 +65,7 @@ body {
 
     .logo {
         margin-right: auto;
-        margin-left: 1rem;
+        margin-left: 0.3rem;
     }
 
 #page-header {
