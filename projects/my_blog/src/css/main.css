@@ -41,9 +41,6 @@ html, body {
   transition: all 0.3s ease-in-out;
 }
 
-#toggle {
-  opacity: 0;
-}
 
 .Navbar__Link {
   padding-right: 8px;  
@@ -159,22 +156,13 @@ a.btn {
 	}
 }
 
-/* @media (max-width: 800px){
-	.hero{
-		min-height: 600px;
-	}
-
-	.hero h1{
-		font-size: 48px;
-	}
-
-	.hero h3{
-		font-size: 24px;
-	}
-
-	.hero a.btn{
-		/* padding: 1rem 2rem; */
-
+@keyframes slidefade-2 {
+  100% {
+    opacity: 1;
+    margin-top: 0.4rem;
+    margin-bottom: 2rem;
+  }
+}
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .hero a.btn {
@@ -183,7 +171,7 @@ a.btn {
   }
 
   .hero-content-area {
-    align-self: auto;
+    animation: 1s slidefade-2 1s forwards;
   }
 
   .hero {
@@ -229,8 +217,6 @@ a.btn {
     cursor: pointer;
    } 
 }
-
-
 
 
   @-webkit-keyframes fadeInDown {
