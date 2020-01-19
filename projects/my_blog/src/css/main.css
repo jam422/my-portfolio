@@ -159,7 +159,7 @@ a.btn {
 	}
 }
 
-@media (max-width: 800px){
+/* @media (max-width: 800px){
 	.hero{
 		min-height: 600px;
 	}
@@ -174,13 +174,16 @@ a.btn {
 
 	.hero a.btn{
 		/* padding: 1rem 2rem; */
-	}
-}
+
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .hero a.btn {
     font-size: 0.8rem;
     padding: 0.8rem
+  }
+
+  .hero-content-area {
+    align-self: auto;
   }
 
   .hero {
