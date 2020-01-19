@@ -10,16 +10,47 @@
 </head>
 
 <body>
-    <div class="nav">
-        <label for="toggle">&#9776;</label>
-        <input type="checkbox" id="toggle" />
-        <div class="menu">
-            <a href="index.html">Home</a>
-            <a href="blog.html">Blog</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
+    <div class="Navbar">
+        <div class="Navbar__Link Navbar__Link-brand">
+            JAMWEB
         </div>
+        <div class="Navbar__Link Navbar__Link-toggle">
+            <span>&#9776;</span>
+        </div>
+        <nav class="Navbar__Items">
+            <div class="Navbar__Link">
+                <a href="index.html">Home</a>
+            </div>
+            <div class="Navbar__Link">
+                <a href="blog.html">Blog</a>
+            </div>
+            <div class="Navbar__Link">
+                <a href="about.html">About</a>
+            </div>
+            <div class="Navbar__Link">
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+        <nav class="Navbar__Items Navbar__Items--right">
+            <div class="Navbar__Link">
+                Link
+            </div>
+            <div class="Navbar__Link">
+                Link
+            </div>
+        </nav>
     </div>
+
+    <section class="hero">
+        <div class="background-image" style="background-image: url(img/nat.jpg)"></div>
+        <div class="hero-content-area">
+            <h1>LOVE</h1>
+            <h3>is more than a feeling</h3>
+            <a href="#" class="btn">Contact Us</a>
+        </div>
+    </section>
+
+    <script src="js/app.js"></script>
 </body>
 
 </html>
