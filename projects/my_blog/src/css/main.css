@@ -89,7 +89,7 @@ body {
     transform: translate(-50%, -50%);
     color: #fff;
     border-radius: 50%;
-    padding: 1rem;
+    padding: 3rem;
 }
 
     .page-heading_one {
@@ -99,7 +99,7 @@ body {
     .page-heading_two {
         font-size: 1rem;
         letter-spacing: 3px;
-        padding-bottom: 0.5rem;
+        
         font-style: oblique;
     }
 
