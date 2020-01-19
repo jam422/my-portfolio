@@ -75,12 +75,9 @@ body {
 
 #page-header {
     width: 100%;
-    height: 75vh;
+    height: 87.6vh;
     background-image: url(../img/jansen_and_daddy.jpg), linear-gradient(10deg, var(--color1), var(--color3));
-    background-position: 100px 100px;
     background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
 }    
 
   
@@ -114,12 +111,12 @@ body {
     }
 
 /* media query for moblie nav */
-@media only screen and (min-width: 600) {
+/* @media only screen and (min-width: 600) {
     .nav {
-        /* justify-content: center;
+        justify-content: center;
         flex-direction: column;
         height: auto;
-        text-align: center; */
+        text-align: center;
     }
 
     .nav__list {
@@ -138,7 +135,7 @@ body {
         position: relative;
 
     }
-}
+} */
 @media only screen  and (min-width : 1224px) {
 
     .header {
@@ -148,7 +145,7 @@ body {
     #page-header {
         background-position: center;
         background-repeat: no-repeat;
-        background-size: auto;
+        background-size: cover;
         position: relative;
     }
 }
