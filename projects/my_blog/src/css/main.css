@@ -139,7 +139,12 @@ section {
 
 .hero a.btn {
   padding: 0.5rem 0.7rem;
+  transition: all 0.3s ease-in-out;
 }
+
+  .hero a.btn:hover {
+    color: var(--color5);
+  }
 
 .hero-content-area {
     opacity: 0;
@@ -200,5 +205,9 @@ a.btn {
   .hero a.btn {
     font-size: 0.8rem;
     padding: 0.8rem
+  }
+
+  .hero-content-area {
+    height: 100vh;
   }
 }
