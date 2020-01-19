@@ -28,15 +28,15 @@ body {
 .header {    
     display: flex;    
     width: 100%;
+    border-bottom: 1px solid var(--color6);
 }
 
 .nav {
     background-color: var(--color52);
-    border-bottom: 1px solid var(--color6);
     display: flex;
     font-size: 1.2rem;
     align-items: center;    
-    height: 4rem;    
+    height: auto;    
     width: 100%;
 }
 
@@ -130,9 +130,6 @@ body {
         margin: 0 auto;
     }
 
-    .header-container {
-        
-    }
     #page-header {
         background-position: center;
         background-repeat: no-repeat;
@@ -142,9 +139,7 @@ body {
     }
 }
 @media only screen and (min-width: 1000px) {
-    .header-container {
- 
-    }
+
     #page-header {
         background-attachment: fixed;
         background-size: cover;
@@ -152,12 +147,14 @@ body {
         position: relative;
     }
 }
-@media only screen and (min-width: 768px)  {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+    .header { height: 5rem; }
+    
     #page-header {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
- position: relative;
+        position: relative;
     }
 }
 
@@ -165,8 +162,18 @@ body {
     .nav { flex-direction: column; }
     .nav__list {
         margin: 0 auto;
-        padding-bottom: 1rem;
+        
     }
-    .logo { padding-top: 0.3rem; margin: 0 auto;}
-    .header { height: auto; }
+    .logo { padding-top: 0.3rem; margin: 0 auto; margin-bottom: 10px;}
+    .header { height: 5rem; }
+    #page-header {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        top: 50%;
+    }
+    .header-container {
+
+    }
 }
