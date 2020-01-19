@@ -134,15 +134,15 @@ section {
 }
 
 .hero a.btn {
-	padding: 20px 46px;
+	padding: 1.3rem 1rem;
 }
 
 .hero-content-area {
     opacity: 0;
     height: auto;
-    padding: 4rem;
+    padding: 2rem;
     border-radius: 5px;
-	margin-top: 100px;
+	  margin-top: 1rem;
     animation: 1s slidefade 1s forwards;
     background-color: rgba(38, 12, 26, 0.9);
 }
@@ -158,13 +158,12 @@ a:hover {
 }
 
 a.btn {
-	border-radius: 4px;
-	text-transform: uppercase;
+	border-radius: 4px;	
 	font-weight: bold;
 	text-align: center;
 	background-color: var(--color7);
-    opacity: 1;
-    padding: 1rem;
+  opacity: 1;
+    
 }
 
 @keyframes slidefade {
@@ -188,6 +187,13 @@ a.btn {
 	}
 
 	.hero a.btn{
-		padding: 1rem 2rem;
+		/* padding: 1rem 2rem; */
 	}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .hero a.btn {
+    font-size: 0.8rem;
+    padding: 0.8rem
+  }
 }
