@@ -166,9 +166,8 @@ body {
     .nav { flex-direction: column; }
     .nav__list {
         margin: 0 auto;
-        
     }
-    .logo { padding-top: 0.3rem; margin: 0 auto; margin-bottom: 0.2rem;}
+    .logo { padding-top: 0.3rem; margin: 0 auto; margin-bottom: 1rem;}
     .header { height: 5rem; }
     #page-header {
         background-position: center;
@@ -177,7 +176,7 @@ body {
         position: relative;
         top: 50%;
     }
-    .header-container {
+    /* .header-container {
 
-    }
+    } */
 }
