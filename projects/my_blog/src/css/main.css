@@ -149,21 +149,6 @@ a.btn {
     
 }
 
-@keyframes slidefade {
-	100% {
-		opacity: 1;
-		margin: 0;
-	}
-}
-
-@keyframes slidefade-2 {
-  100% {
-    opacity: 1;
-    margin-top: 0.4rem;
-    margin-bottom: 2rem;
-  }
-}
-
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   .hero a.btn {
     font-size: 0.8rem;
@@ -175,7 +160,7 @@ a.btn {
   }
 
   .hero {
-    height: 100vh;
+    min-height: 480px;
   }
 
     .Navbar__Link-brand {
@@ -184,10 +169,34 @@ a.btn {
 
 }
 
+@media (max-width: 800px){
+	section{
+		padding: 50px 20px;
+	}
+}
+
+/* @media (max-width: 800px){
+	.hero{
+		min-height: 600px;
+	}
+
+	.hero h1{
+		font-size: 48px;
+	}
+
+	.hero h3{
+		font-size: 24px;
+	}
+
+	.hero a.btn{
+		padding: 15px 40px;
+	}
+} */
+
+
 @media only screen and (max-width: 768px) {
   .Navbar__Items,
   .Navbar {
-    transition: all 0.3s ease-in-out;
     flex-direction: column;
   }
 
@@ -218,6 +227,21 @@ a.btn {
    } 
 }
 
+
+@keyframes slidefade {
+	100% {
+		opacity: 1;
+		margin: 0;
+	}
+}
+
+@keyframes slidefade-2 {
+  100% {
+    opacity: 1;
+    margin-top: 0.4rem;
+    margin-bottom: 2rem;
+  }
+}
 
   @-webkit-keyframes fadeInDown {
   0% {
