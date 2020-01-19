@@ -107,7 +107,7 @@ section {
 	position: relative;
 	justify-content: center;
 	text-align: center;
-	max-height: 100vh;
+	min-height: 100vh;
   color: #fff;
 }
 
@@ -123,24 +123,29 @@ section {
 }
 
 .hero h1 {
-	font: bold 60px "Open Sans", sans-serif;
-	margin-bottom: 15px;
+	font: bold 48px "Open Sans", sans-serif;
+	margin-bottom: 10px;
 }
 
 .hero h3 {
-    font: normal 28px "Open Sans", sans-serif;
+    font: normal 24px "Open Sans", sans-serif;
     font-style: oblique;
-	margin-bottom: 40px;
+	  margin-bottom: 25px;
 }
 
+  #underline {
+    text-decoration: underline;
+  }
+
 .hero a.btn {
-	padding: 1.3rem 1rem;
+  padding: 0.5rem 0.7rem;
 }
 
 .hero-content-area {
     opacity: 0;
-    height: auto;
+    height: 100%;
     padding: 2rem;
+    width: auto;
     border-radius: 5px;
 	  margin-top: 1rem;
     animation: 1s slidefade 1s forwards;
@@ -159,7 +164,7 @@ a:hover {
 
 a.btn {
 	border-radius: 4px;	
-	font-weight: bold;
+	/* font-weight: bold; */
 	text-align: center;
 	background-color: var(--color7);
   opacity: 1;
