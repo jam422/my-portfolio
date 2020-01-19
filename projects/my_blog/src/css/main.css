@@ -287,7 +287,8 @@ a.btn {
 }
 
 hr {
-	width: 70%;
+  
+	max-width: 100%;
 	height: 3px;
 	background-color: var(--color1);
 	border: 0;
