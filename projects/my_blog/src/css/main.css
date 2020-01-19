@@ -25,6 +25,7 @@ body {
 
 .header {    
     display: flex;    
+    width: 100%;
 }
 
 .nav {
@@ -130,16 +131,18 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
+
     }
 }
 @media only screen and (min-width: 1000px) {
     .header-container {
-        width: 18.5%;
+      width: 18.5%;
     }
     #page-header {
         background-attachment: fixed;
         background-size: cover;
         background-repeat: no-repeat;
+        position: relative;
     }
 }
 @media only screen and (min-width: 768px)  {
@@ -147,6 +150,6 @@ body {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        position: relative;
+ position: relative;
     }
 }
