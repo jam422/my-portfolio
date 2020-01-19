@@ -167,7 +167,7 @@ body {
     .nav__list {
         margin: 0 auto;
     }
-    .logo { padding-top: 0.3rem; margin: 0 auto; margin: 1rem 0;}
+    .logo { margin: 0 auto;}
     .header { height: 5rem; }
     #page-header {
         background-position: center;
