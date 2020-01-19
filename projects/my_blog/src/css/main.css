@@ -148,7 +148,7 @@ section {
 
 .hero-content-area {
     opacity: 0;
-    height: 100%;
+    height: auto;
     padding: 2rem;
     width: auto;
     border-radius: 5px;
@@ -207,7 +207,7 @@ a.btn {
     padding: 0.8rem
   }
 
-  .hero-content-area {
+  .hero {
     height: 100vh;
   }
 }
