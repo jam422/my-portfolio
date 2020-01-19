@@ -122,9 +122,9 @@ section {
 
 .hero-content-area {
     opacity: 0;
-    height: 50%;
+    height: auto;
     padding: 1rem 2rem 2rem 2rem;
-    width: 75vw;
+    width: auto;
     border-radius: 5px;
 	  
     animation: 1s slidefade 1s forwards;
@@ -152,7 +152,7 @@ a.btn {
 
 @media only screen and (min-width : 320px) and (max-width : 480px) {
   section {
-      /* padding: 20px 20px; */
+      padding: 20px 20px;
   }
   
   .hero a.btn {
@@ -174,13 +174,9 @@ a.btn {
 
 }
 
-@media (min-width: 1000px){
-  .hero-content-area {
-    width: auto;
-  }
-}
 
-/* @media (max-width: 800px){
+
+@media (max-width: 800px){
 	.hero{
 		min-height: 600px;
 	}
@@ -196,7 +192,7 @@ a.btn {
 	.hero a.btn{
 		padding: 15px 40px;
 	}
-} */
+}
 
 
 @media only screen and (max-width: 768px) {
