@@ -6,6 +6,7 @@
     --color4: rgba(77, 70, 70, 1);
     --color5: rgba(38, 12, 26, 1);
     --color51: rgba(38, 12, 26, 0.9);
+    --color52: rgba(56, 32, 45, 0.9);
     --color6: rgba(99, 97, 97, 0.7);
 }
 
@@ -30,7 +31,7 @@ body {
 }
 
 .nav {
-    background-color: var(--color3);
+    background-color: var(--color52);
     border-bottom: 1px solid var(--color6);
     display: flex;
     font-size: 1.2rem;
@@ -72,20 +73,23 @@ body {
     }
 
 #page-header {
-    width: 100vw;
+    width: 100%;
     height: 75vh;
-    background-image: url(../img/jansen_and_daddy.jpg);
-    background-position: center;
+    background-image: url(../img/jansen_and_daddy.jpg), linear-gradient(10deg, var(--color1), var(--color3));
+    background-position: top center;
     background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-size: auto;
+    position: relative;
 }    
 
   
 
 .header-container {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
     background-color: var(--color51);
-    width: 20%;
+    width: auto;
     text-align: center;
     position: absolute;
     left: 50%;
@@ -97,6 +101,7 @@ body {
 }
 
     .page-heading_one {
+        
         letter-spacing: 6px;
     }
 
