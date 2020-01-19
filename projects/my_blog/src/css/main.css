@@ -24,7 +24,7 @@ body {
 }
 
 .header {    
-    
+    display: flex;
 }
 
 .nav {
@@ -34,6 +34,7 @@ body {
     justify-content: flex-end;
     align-items: center;    
     height: 3rem;    
+    width: 100%;
 }
 
     .nav__list {
@@ -73,7 +74,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    
 }    
 
   
