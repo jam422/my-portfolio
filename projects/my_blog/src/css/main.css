@@ -20,7 +20,7 @@
 }
 
 html, body {
-    overflow: hidden;
+    
     height: 100%;
     width: 100%;
     font-size: 1.2rem;
@@ -268,3 +268,77 @@ a.btn {
   transform: none;
   }
   } 
+
+/***********INTRO************/
+section:not(.hero):nth-child(even) {
+	background-color: var(--color5);
+}
+
+.grid {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+hr {
+	width: 250px;
+	height: 3px;
+	background-color: var(--color1);
+	border: 0;
+	margin-bottom: 50px;
+}
+
+section h3.intro-title {
+	text-transform: capitalize;
+	font: bold 32px "Open Sans", sans-serif;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+section p {
+	max-width: 775px;
+	line-height: 2;
+	padding: 0 20px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.intro .grid li{
+    height: 350px;
+    padding: 20px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+}
+
+.intro .grid li.small{
+    flex-basis: 30%;
+}
+
+.intro .grid li.large{
+    flex-basis: 75%;
+}
+
+@media (max-width: 1100px){
+	.intro .grid li.small,
+	.intro .grid li.large{
+		flex-basis: 50%;
+	}
+}
+
+@media (max-width: 800px){
+	.intro .grid li.small,
+	.intro .grid li.large{
+		flex-basis: 100%;
+	}
+}
+
+@media (max-width: 800px){
+	section{
+		padding: 50px 20px;
+	}
+}
+
+
+/***********END INTRO************/
