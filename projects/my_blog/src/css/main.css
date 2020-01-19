@@ -28,6 +28,7 @@ body {
 .header {    
     display: flex;    
     width: 100%;
+    
 }
 
 .nav {
@@ -36,7 +37,7 @@ body {
     display: flex;
     font-size: 1.2rem;
     align-items: center;    
-    height: 3rem;    
+    height: 4rem;    
     width: 100%;
 }
 
@@ -115,10 +116,10 @@ body {
 /* media query for moblie nav */
 @media only screen and (min-width: 600) {
     .nav {
-        justify-content: center;
+        /* justify-content: center;
         flex-direction: column;
         height: auto;
-        text-align: center;
+        text-align: center; */
     }
 
     .nav__list {
@@ -159,4 +160,13 @@ body {
         background-size: cover;
  position: relative;
     }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .nav { flex-direction: column; }
+    .nav__list {
+        margin: 0.3rem auto;
+    }
+    .logo { padding-top: 0.3rem; margin: 0 auto;}
+    .header {  }
 }
