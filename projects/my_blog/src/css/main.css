@@ -178,8 +178,7 @@ a.btn {
     align-self: flex-start;
   }
 
-  	.intro .grid li.small,
-	  .intro .grid li.large{
+  	.intro .grid li.small {
       flex-basis: 100%;
     }
 
@@ -349,21 +348,14 @@ section p {
 }
 
 .intro .grid li.small{
-    flex-basis: 50%;
+    flex-basis: 100%;
 }
 
 .intro .grid li.large{
-    flex-basis: 50%;
+    flex-basis: 100%;
 }
 
-@media (max-width: 1100px){
-	.intro .grid li.small,
-	.intro .grid li.large{
-		flex-basis: 50%;
-	}
-}
-
-@media (max-width: 800px){
+@media (max-width: 1100px) and (min-width: 768px){
 	.intro .grid li.small,
 	.intro .grid li.large{
 		flex-basis: 50%;
