@@ -20,7 +20,7 @@
 }
 
 html, body {
-    overflow-x: hidden;
+    overflow-x: visible;
     height: 100vh;
     width: 100%;
     font-size: 1.2rem;
