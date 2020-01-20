@@ -345,7 +345,6 @@ section p {
     background-clip: content-box;
     background-size: cover;
     background-position: center;
-    list-style: none;
 }
 
 .intro .grid li.small{
