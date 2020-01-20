@@ -294,6 +294,10 @@ hr {
 	margin-bottom: 50px;
 }
 
+.intro .fa-smile-o {
+  color: var(--color7);
+}
+
 section h3.intro-title {
 	text-transform: capitalize;
 	font: bold 32px "Open Sans", sans-serif;
