@@ -313,7 +313,7 @@ section h3.intro-title {
 }
 
 blockquote {
-    margin: 0;
+    margin-bottom: 1rem;
 }
 
 blockquote p {
