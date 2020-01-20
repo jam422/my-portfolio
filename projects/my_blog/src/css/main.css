@@ -340,6 +340,7 @@ section p {
 }
 
 .intro .grid li{
+    list-style: none;
     height: 350px;
     padding: 20px;
     background-clip: content-box;
