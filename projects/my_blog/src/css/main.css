@@ -301,6 +301,24 @@ section h3.intro-title {
 	text-align: center;
 }
 
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+blockquote cite::before {
+    content: '\201C';
+}
+
+blockquote cite::after {
+    content: '\201D';
+}
+
 section p {
 	max-width: 775px;
 	line-height: 2;
