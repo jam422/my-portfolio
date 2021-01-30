@@ -1,0 +1,208 @@
+// Variable Overrides 
+$theme-colors: (
+    "primary": #94b094,
+    "secondary": #698274,
+    "third": #516b64,
+    "fourth": #3e4e53,
+    "font": #9aadbf
+);
+
+// @import '../../node_modules/font-awesome/scss/variables.scss';
+// $fa-font-path: '../../node_modules/font-awesome/fonts';
+// @import '../../node_modules/font-awesome/scss/font-awesome.scss';
+
+/* RGB */
+$color1: #567f8d;
+$color2: #bac1b8;
+$color3: #00a676;
+$color4: #9aadbf;
+$color5: #b39b52;
+
+
+
+:root {
+  --color1: #94b094;
+  --color2: #698274;
+  --color3: #3e4e53;
+  --color4: #516b64;
+  --color5: #b39b52;
+
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  background-color: var(--color3) !important;
+  margin: 0;
+}
+
+/* navigation styles start here */
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+#gallery {
+  color: #fff;
+}
+
+#gallery img {
+  box-shadow: 3px 2px 2px rgba(23, 35, 39, 0.863);
+  border-radius: 4px;
+
+}
+
+#services {
+  height: 100vh;
+  width: 100%;
+  max-width: 100%;
+  padding: 15px;
+}
+
+
+.cta {
+  
+}
+
+.at-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  
+}
+.at-item {
+  animation-name: angry-animation;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+
+  animation-direction: normal;
+}
+@keyframes angry-animation {
+  0%{
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  60%{
+    opacity: 1;
+    -webkit-transform: scale3d(1,1,1);
+    transform: scale3d(1,1,1);
+  }
+}
+
+
+.logo {
+    color: var(--color5);
+    letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+
+header img {
+width: auto;
+height: auto;
+
+}
+
+.navbar {
+  
+  border-bottom: 1px solid $color5;
+}
+
+.navbar .nav-link {
+  transition: all .4s;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+
+}
+
+a.navbar-brand {
+  transition: all .4s;
+  font-size: 2.2rem; }
+
+a.navbar-brand:hover {
+  color: $color5 !important;   
+  text-shadow: 3px 5px 2px #474747;
+}
+
+.navbar .nav-link:hover {
+  color: $color5 !important; 
+  text-shadow: 3px 5px 2px #474747;
+}
+
+#page-header {
+  padding: 2rem;
+  color: #fff;
+
+}
+
+.contact {
+  margin-top: 5rem;
+  padding: 5rem;
+  margin-bottom: 1rem;
+}
+
+.form__text {
+  color: #567f8d;
+}
+
+.package-heading {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.footer {
+  display: flex;
+  color: $color5;
+  align-items: center;
+  justify-content: space-between;    
+  flex-direction: row;
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 1.5rem;
+  width: 100%; 
+  border-top: 1px solid $color5;
+}
+
+.footer-copy {
+   margin-right: 10rem;
+}
+
+// .social {
+//   display: flex;
+//   margin-left: auto;
+//   margin-right: auto;
+// }
+
+// .footer-brand {
+//   display: flex;
+//   margin-left: auto;
+//   margin-right: auto;
+// }
+
+
+.footer-icons a {
+  margin-right: auto;
+}
+
+.footer a i {
+  transition: all 0.3s;
+  color: $color4;
+ }
+
+.footer a i:hover {
+  color: var(--color5);
+}
+
+
+// Bootstrap Sass Imports
+@import "node_modules/bootstrap/scss/bootstrap";
