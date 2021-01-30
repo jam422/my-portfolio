@@ -157,8 +157,8 @@ blockquote footer {
 .test-container {
   width: 80%;
   border: 2px solid #ccc;
-  background-color: #7F7F7F;
-  color: #fff;
+  background-color: #ffb6b6;
+  color: grey;
   border-radius: 5px;
   padding: 16px;
   margin: 2rem auto;
