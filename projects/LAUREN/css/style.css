@@ -142,8 +142,8 @@ h1:hover {
 .intro__text {
   padding: 0 5rem;
 }
-/* 
-  .intro__text i {
-    margin-top: 1rem;
-  } */
+
+#underline {
+  text-decoration: underline;
+}
 
