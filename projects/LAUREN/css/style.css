@@ -140,6 +140,10 @@ h1:hover {
   height: 90vh; }
 
 .intro__text {
-  padding: 5rem;
+  padding: 0 5rem;
 }
+/* 
+  .intro__text i {
+    margin-top: 1rem;
+  } */
 
