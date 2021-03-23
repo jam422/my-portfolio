@@ -1,0 +1,149 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+html {
+  height: 100%;
+  font-size: 62.5%; }
+
+body {
+  display: flex;
+  text-align: center;
+  height: 100vh;
+  background: linear-gradient(45deg, #69123c, #ffc59f) no-repeat center center fixed;
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-weight: 400;
+  line-height: 1.7;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden; }
+
+/* .button */
+.button {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  margin: 1em;
+  padding: 2rem;
+  overflow: hidden;
+  text-decoration: none;
+  font-size: 4em;
+  outline: none;
+  color: #FFF;
+  background: #f23f5b;
+  border-radius: 0.5rem; }
+
+h1 {
+  letter-spacing: 6px;
+  text-transform: uppercase; }
+
+h1:hover {
+  box-shadow: 5px 5px 5px #69123c;
+  transition: all .5s ease-in-out; }
+
+.button span {
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -o-transition: 0.6s;
+  transition: 0.6s;
+  -webkit-transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s; }
+
+.button:before,
+.button:after {
+  content: '';
+  position: absolute;
+  top: 2rem;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: .4s,opacity .6s;
+  -moz-transition: .4s,opacity .6s;
+  -o-transition: .4s,opacity .6s;
+  transition: .4s,opacity .6s; }
+
+/* :before */
+.button:before {
+  content: attr(data-hover);
+  -webkit-transform: translate(-150%, 0);
+  -moz-transform: translate(-150%, 0);
+  -ms-transform: translate(-150%, 0);
+  -o-transform: translate(-150%, 0);
+  transform: translate(-150%, 0); }
+
+/* :after */
+.button:after {
+  content: attr(data-active);
+  -webkit-transform: translate(150%, 0);
+  -moz-transform: translate(150%, 0);
+  -ms-transform: translate(150%, 0);
+  -o-transform: translate(150%, 0);
+  transform: translate(150%, 0); }
+
+/* Span on :hover and :active */
+.button:hover span,
+.button:active span {
+  cursor: pointer;
+  opacity: 0;
+  -webkit-transform: scale(0.3);
+  -moz-transform: scale(0.3);
+  -ms-transform: scale(0.3);
+  -o-transform: scale(0.3);
+  transform: scale(0.3); }
+
+/*  
+    We show :before pseudo-element on :hover 
+    and :after pseudo-element on :active 
+*/
+.button:hover:before,
+.button:active:after {
+  opacity: 1;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+  -webkit-transition-delay: .4s;
+  -moz-transition-delay: .4s;
+  -o-transition-delay: .4s;
+  transition-delay: .4s; }
+
+/* 
+  We hide :before pseudo-element on :active
+*/
+.button:active:before {
+  -webkit-transform: translate(-150%, 0);
+  -moz-transform: translate(-150%, 0);
+  -ms-transform: translate(-150%, 0);
+  -o-transform: translate(-150%, 0);
+  transform: translate(-150%, 0);
+  -webkit-transition-delay: 0s;
+  -moz-transition-delay: 0s;
+  -o-transition-delay: 0s;
+  transition-delay: 0s; }
+
+.intro {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  padding: 1rem;
+  margin: 8px 0;
+  flex-direction: column;
+  font-size: 2em;
+  color: #ff5e4e;
+  background: linear-gradient(45deg, #fff, #ffc59f) no-repeat center center fixed;
+  height: 90vh; }
+
+.intro__text {
+  padding: 0 5rem;
+}
+
+#underline {
+  text-decoration: underline;
+}
+
