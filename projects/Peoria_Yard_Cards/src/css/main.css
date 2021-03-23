@@ -6,8 +6,8 @@ html {
 body {
   font-family: 'Lato', sans-serif;
   overflow: hidden;
-  background: linear-gradient(to left, #e26d72, #8f1f28); }
-  
+  background: linear-gradient(to left, #e26d72, #8f1f28); 
+}
 
 .navbar .nav-link {
   transition: all .4s;
